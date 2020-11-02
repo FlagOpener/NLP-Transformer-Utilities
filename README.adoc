@@ -213,3 +213,63 @@ Dialog Corpora
 * WebQuestions
 * wordrobe20140627.csv.gz
 * YahooAnswers
+* CommonsenseQA
+* ComplexWebQuestions
+* bAbI
+
+Chat Corpora
+------------
+
+*          Zamia AI
+*   74M    AIML bots
+*  142M    chat_corpus
+           https://github.com/Marsan-Ma-zz/chat_corpus
+           https://github.com/Marsan-Ma/twitter_scraper
+
+           34M open subtitles
+           21M twitter_en
+*   41M    cornell_movie_dialogs_corpus
+*   33M    cornell_movie_quotes_corpus.zip
+*    0.2M  Microsoft Research Social Media Conversation Corpus
+*    4.3M  swb1_dialogact_annot.tar.gz
+* 7800M    The Ubuntu Dialogue Corpus v1.0
+*          NPS Chat Corpus (NLTK)
+*          Internet archive Twitter stream https://archive.org/search.php?query=collection%3Atwitterstream&sort=-publicdate&page=2
+*   58M    chatterbot-logs
+
+Knowledge
+---------
+
+* WikiData
+* conceptnet5
+* framenet_v15
+* HappyDB
+* linkedgeodata
+* nell
+* opencyc
+* SemLink
+* SUMO
+* UMBEL
+* weather
+* wordnet
+
+AI Architecture Survey
+----------------------
+
+* scalable:
+    * XL-Net
+    * Transformer XL
+* OpenAI GPT-2
+    * How to build a State-of-the-Art Conversational AI with Transfer Learning
+      https://medium.com/huggingface/how-to-build-a-state-of-the-art-conversational-ai-with-transfer-learning-2d818ac26313
+   
+    * python newspaper article extractor https://github.com/codelucas/newspaper
+
+    * OpenWebText https://github.com/jcpeterson/openwebtext
+      https://pushshift.io/  http://files.pushshift.io/reddit/
+* BERT
+  https://arxiv.org/pdf/1901.08634.pdf
+* How does TF's universal sentence encoder work?
+* Transformer https://arxiv.org/pdf/1706.03762.pdf
+  https://www.tensorflow.org/alpha/tutorials/sequences/transformer
+* SDNet https://arxiv.org/pdf/1812.03593.pdf
