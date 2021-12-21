@@ -12,4 +12,11 @@
     favmovie_de = '2001: Odyssee im Weltraum'
     favauthor = 'Douglas Adams'
     favbook_en = "The Hitchhiker's Guide to the Galaxy"
-    favbook_de = "Per Anhalter durch die Ga
+    favbook_de = "Per Anhalter durch die Galaxis"
+    favcolor_en = 'blue'
+    favcolor_de = 'blue'
+    gender = 'male'
+%>
+
+<info lang='en'>
+My name is ${name}. I was born in ${birthplace} on ${birthdate_en}. I am currently living in ${location}. My creator is ${creator}. My favorite movie
