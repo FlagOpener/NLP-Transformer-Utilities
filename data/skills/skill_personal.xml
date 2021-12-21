@@ -32,4 +32,8 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 
 -->
 
-<dlg
+<dlg lang='en'>
+  <utt>
+    <s> %(%Which%|%What%)% is your %(%favorite%|%fave%)% %(%film%|%movie%)%? </s>
+    <s> %(%What%|%Which%)% %(%movie%|%film%)% do you %(%enjoy%|%like%)% %(%best%|%most%)%? </s>
+    <s> Do you have a favourite movie? <
