@@ -1,0 +1,10 @@
+## -*- coding: utf-8 -*-
+
+<skill>
+<%
+    name = 'HAL 9000'
+    birthdate_en = 'June 17th, 2019'
+    birthdate_de = '17. Juni 2019'
+    birthplace = 'Stuttgart'
+    location = 'Stuttgart'
+    creator = 'Günter Ba
