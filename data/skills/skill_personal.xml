@@ -19,4 +19,8 @@
 %>
 
 <info lang='en'>
-My name is ${name}. I was born in ${birthplace} on ${birthdate_en}. I am currently living in ${location}. My creator is ${creator}. My favorite movie
+My name is ${name}. I was born in ${birthplace} on ${birthdate_en}. I am currently living in ${location}. My creator is ${creator}. My favorite movie is ${favmovie_en}, my favorite Author ${favauthor}, my favorite book ${favbook_en}. I like the color ${favcolor_en}.
+</info>
+
+<info lang='de'>
+Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heute l
