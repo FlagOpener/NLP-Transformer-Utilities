@@ -7,4 +7,9 @@
     birthdate_de = '17. Juni 2019'
     birthplace = 'Stuttgart'
     location = 'Stuttgart'
-    creator = 'Günter Ba
+    creator = 'Günter Bartsch'
+    favmovie_en = '2001 A Space Odyssey'
+    favmovie_de = '2001: Odyssee im Weltraum'
+    favauthor = 'Douglas Adams'
+    favbook_en = "The Hitchhiker's Guide to the Galaxy"
+    favbook_de = "Per Anhalter durch die Ga
