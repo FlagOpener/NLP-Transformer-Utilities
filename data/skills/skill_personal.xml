@@ -23,4 +23,13 @@ My name is ${name}. I was born in ${birthplace} on ${birthdate_en}. I am current
 </info>
 
 <info lang='de'>
-Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heute l
+Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heute lebe ich in ${location}. Mein Schöpfer ist ${creator}. Mein Lieblingsfilm ist ${favmovie_en}, mein Lieblingsauthor ${favauthor}, mein Lieblingsbuch ${favbook_de}. Ich mag die Farbe ${favcolor_de}.
+</info>
+
+<!-- 
+
+    movies 
+
+-->
+
+<dlg
