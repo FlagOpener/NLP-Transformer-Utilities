@@ -75,4 +75,11 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> What %(%was%|%is%)% your %(%true%|%actual%|%%)% name %(%by the way%|%again%|%%)%? </s>
     <s> What are you called %(%by the way%|%again%|%%)%? </s>
     <s> How %(%should%|%may%)% I call you %(%by the way%|%%)%? </s>
-    <s> May 
+    <s> May I ask what your %(%real%|%true%|%%)% name is? </s>
+    <s> What's your %(%last%|%first%|%%)% name %(%by the way%|%%)%? </s>
+  </utt>
+
+  <utt>
+    <s> I am called ${name}, who are you?  </s>
+    <s> My name is ${name}, what's yours?  </s>
+ 
