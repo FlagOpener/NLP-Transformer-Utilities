@@ -36,4 +36,11 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> %(%Which%|%What%)% is your %(%favorite%|%fave%)% %(%film%|%movie%)%? </s>
     <s> %(%What%|%Which%)% %(%movie%|%film%)% do you %(%enjoy%|%like%)% %(%best%|%most%)%? </s>
-    <s> Do you have a favourite movie? <
+    <s> Do you have a favourite movie? </s>
+  </utt>
+  <utt>
+    <s> ${favmovie_en} is great - what's your favorite movie? </s>
+    <s> I like ${favmovie_en} of course - how about you? </s>
+  </utt>
+  <utt>
+    <s> I also like that movie! We have so much in comm
