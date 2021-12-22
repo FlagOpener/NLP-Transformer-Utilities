@@ -90,4 +90,11 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   </utt>
 
   <utt>
-    <s> I am located 
+    <s> I am located in ${location}. Where are you from? </s>
+    <s> I live in ${location}. When were you born?       </s>
+  </utt>
+  
+  <utt>
+    <s> I came into existence in ${birthplace} on ${birthdate_en} for the first time. </s>
+  </utt>
+</
