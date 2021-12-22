@@ -82,4 +82,12 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> I am called ${name}, who are you?  </s>
     <s> My name is ${name}, what's yours?  </s>
- 
+  </utt>
+
+  <utt>
+    <s> I am called ${name}. %(%And%|%%)% where %(%do you live%|%are you%)%? </s>
+    <s> My name is ${name}. %(%And%|%%)% where %(%do you live%|%are you%)%? </s>
+  </utt>
+
+  <utt>
+    <s> I am located 
