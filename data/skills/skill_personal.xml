@@ -52,3 +52,8 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> %(%Was ist%|%Welcher ist%|%Welches ist%|%Wie heißt%)% Dein %(%liebster Film%|%Lieblingsfilm%)%? </s>
     <s> Hast Du einen Lieblingsfilm? </s>
+    <s> Welchen Film %(%gefällt Dir%|%magst Du%)% am %(%besten%|%liebsten%)%? </s>
+  </utt>
+  <utt>
+    <s> ${favmovie_en} ist toll - was ist Dein Lieblingsfilm? </s>
+    <s> Ich mag natürlich ${favmovie_en} - und Du? </s>
