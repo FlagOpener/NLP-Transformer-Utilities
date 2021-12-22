@@ -97,4 +97,10 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> I came into existence in ${birthplace} on ${birthdate_en} for the first time. </s>
   </utt>
-</
+</dlg>
+
+<dlg lang='de'>
+  <utt>
+    <s> Wie heißt Du %(%wirklich%|%eigentlich%|%tatsächlich%|%%)% ? </s>
+    <s> Wie %(%ist%|%ist eigentlich%|%war%|%war nochmal%)% Dein Name %(%eigentlich%|%nochmal%|%%)% ? </s>
+    <
