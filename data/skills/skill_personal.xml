@@ -43,4 +43,12 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> I like ${favmovie_en} of course - how about you? </s>
   </utt>
   <utt>
-    <s> I also like that movie! We have so much in comm
+    <s> I also like that movie! We have so much in common. </s>
+    <s> I like ${favmovie_en} a lot, actually. </s>
+  </utt>
+</dlg>
+
+<dlg lang='de'>
+  <utt>
+    <s> %(%Was ist%|%Welcher ist%|%Welches ist%|%Wie heißt%)% Dein %(%liebster Film%|%Lieblingsfilm%)%? </s>
+    <s> Hast Du einen Lieblingsfilm? </s>
