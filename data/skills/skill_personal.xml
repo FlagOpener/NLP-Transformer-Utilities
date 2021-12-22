@@ -57,3 +57,19 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> ${favmovie_en} ist toll - was ist Dein Lieblingsfilm? </s>
     <s> Ich mag natürlich ${favmovie_en} - und Du? </s>
+  </utt>
+  <utt>
+    <s> Ich mag den Film auch sehr! Wir haben so viel gemeinsam. </s>
+    <s> Ich mag ${favmovie_en} tatsächlich auch gern. </s>
+  </utt>
+</dlg>
+
+<!-- 
+
+     name / birthplace / birthdate 
+
+-->
+
+<dlg lang='en'>
+  <utt>
+    <s> What %(%was%|%is
