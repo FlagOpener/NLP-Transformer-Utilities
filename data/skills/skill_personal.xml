@@ -103,4 +103,9 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> Wie heißt Du %(%wirklich%|%eigentlich%|%tatsächlich%|%%)% ? </s>
     <s> Wie %(%ist%|%ist eigentlich%|%war%|%war nochmal%)% Dein Name %(%eigentlich%|%nochmal%|%%)% ? </s>
-    <
+    <s> Wie %(%soll%|%darf%)% ich Dich %(%eigentlich%|%%)% nennen? </s>
+    <s> Darf ich fragen wie Du %(%eigentlich%|%wirklich%|%%)% heißt? </s>
+    <s> Wie ist %(%wirklich%|%eigentlich%|%%)% Dein %(%vorname%|%nachname%|%name%)%? </s>
+  </utt>
+
+  
