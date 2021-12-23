@@ -108,4 +108,11 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Wie ist %(%wirklich%|%eigentlich%|%%)% Dein %(%vorname%|%nachname%|%name%)%? </s>
   </utt>
 
-  
+  <utt>
+    <s> Ich heiße ${name}, wie heißt Du?  </s>
+    <s> Mein Name ist ${name}, wie ist Deiner?  </s>
+  </utt>
+
+  <utt>
+    <s> Ich heiße ${name}. %(%Und%|%%)% wo %(%lebst Du%|%bist Du%)%? </s>
+    <s> Mein Name ist ${name}. %(%Und%|%%)% wo
