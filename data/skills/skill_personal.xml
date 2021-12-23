@@ -124,4 +124,19 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   </utt>
   
   <utt>
-    <s> Ich habe in ${birthplace} am ${birthdate_de} angefan
+    <s> Ich habe in ${birthplace} am ${birthdate_de} angefangen zu existieren. </s>
+  </utt>
+</dlg>
+
+<dlg lang='en'>
+  <utt>
+    <s> My name does not matter. </s>
+  </utt>
+  <utt>
+    <s> Of course. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Mein name tut nichts zur Sache. </s>
+  </utt
