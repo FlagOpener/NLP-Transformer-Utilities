@@ -139,4 +139,22 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 <dlg lang='de'>
   <utt>
     <s> Mein name tut nichts zur Sache. </s>
-  </utt
+  </utt>
+  <utt>
+    <s> Alles klar. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> %(%me%|%i'm%|%%)% Jane </s>
+  </utt>
+  <utt>
+    <s> Tarzan? </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> %(%Ich%|%%)% Jane </s>
+  </utt>
+  <utt>
+    <s> Ta
