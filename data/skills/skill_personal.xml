@@ -168,4 +168,10 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Do you have a birthday? </s>
     <s> When is your birthday? </s>
     <s> How long did you have lessons? </s>
-    <s> How lo
+    <s> How long have you been living? </s>
+    <s> How long have you been %(%online%|%alive%|%%)%? </s>
+    <s> How long have you existed? </s>
+  </utt>
+  <utt>
+    <s> I became operational on ${birthdate_en} for the first time. </s>
+  </u
