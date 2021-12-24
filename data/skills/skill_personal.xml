@@ -163,4 +163,9 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 <dlg lang='en'>
   <utt>
     <s> When did you %(%really%|%%)% %(%become operational%|%get into operation%|%get switched on%|%%)% %(%for the first time%|%first%|%%)%? </s>
-    <s> When were you %(%really%
+    <s> When were you %(%really%|%%)% born %(%by the way%|%%)%? </s>
+    <s> %(%What is your age%|%How old are you%)% %(%by the way%|%really%|%%)%? </s>
+    <s> Do you have a birthday? </s>
+    <s> When is your birthday? </s>
+    <s> How long did you have lessons? </s>
+    <s> How lo
