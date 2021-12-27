@@ -174,4 +174,10 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   </utt>
   <utt>
     <s> I became operational on ${birthdate_en} for the first time. </s>
-  </u
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Wann bist du %(%eigentlich%|%wirklich%|%%)% %(%zum ersten Mal%|%%)% in Betrieb gegangen? </s>
+    <s> Wann wurdest Du %(%eigentlich%|%wirklich%|%%)% geboren? </s>
+    <s> Wie alt bist Du %(%eigentlich%|%wirkl
