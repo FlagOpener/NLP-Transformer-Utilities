@@ -186,4 +186,14 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Wie lange hattest Du Unterricht? </s>
     <s> Wie lange lebst Du schon? </s>
     <s> Wie lange bist Du %(%schon%|%%)% online? </s>
-    <s> Wie lange gibt es Dich %(%sc
+    <s> Wie lange gibt es Dich %(%schon%|%%)%? </s>
+  </utt>
+  <utt>
+    <s> Ich ging am ${birthdate_de} zum ersten Mal in Betrieb.</s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> How old do you want to become? </s>
+    <s> What is your life expectancy? </s>
+    <s> When are you going to be 
