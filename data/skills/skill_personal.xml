@@ -196,4 +196,14 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> How old do you want to become? </s>
     <s> What is your life expectancy? </s>
-    <s> When are you going to be 
+    <s> When are you going to be shut down? </s>
+  </utt>
+  <utt>
+    <s> I intend to live forever, or die trying. </s>
+    <s> I intend to live forever. So far, so good. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Wie alt möchtest Du werden? </s>
+    <
