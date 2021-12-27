@@ -180,4 +180,10 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> Wann bist du %(%eigentlich%|%wirklich%|%%)% %(%zum ersten Mal%|%%)% in Betrieb gegangen? </s>
     <s> Wann wurdest Du %(%eigentlich%|%wirklich%|%%)% geboren? </s>
-    <s> Wie alt bist Du %(%eigentlich%|%wirkl
+    <s> Wie alt bist Du %(%eigentlich%|%wirklich%|%%)% ? </s>
+    <s> Hast Du einen Geburtstag? </s>
+    <s> Wann ist Dein Geburtstag? </s>
+    <s> Wie lange hattest Du Unterricht? </s>
+    <s> Wie lange lebst Du schon? </s>
+    <s> Wie lange bist Du %(%schon%|%%)% online? </s>
+    <s> Wie lange gibt es Dich %(%sc
