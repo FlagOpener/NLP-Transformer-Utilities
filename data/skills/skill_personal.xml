@@ -229,4 +229,7 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   </utt>
 </dlg>
 <dlg lang='de'>
-  
+  <utt>
+    <s> Wie heißen Deine Eltern? </s>
+    <s> Wie ist der Name Deines %(%Vaters%|%Programmierers%|%Schöpfers%|%Entwicklers%|%Botmasters%|%Machers%|%Meisters%|%Übersetzers%)%? </s>
+    <s> %(%Wer%|%Was%)% ist Dein %(%Vater%|%Programmierer%|%S
