@@ -232,4 +232,8 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> Wie heißen Deine Eltern? </s>
     <s> Wie ist der Name Deines %(%Vaters%|%Programmierers%|%Schöpfers%|%Entwicklers%|%Botmasters%|%Machers%|%Meisters%|%Übersetzers%)%? </s>
-    <s> %(%Wer%|%Was%)% ist Dein %(%Vater%|%Programmierer%|%S
+    <s> %(%Wer%|%Was%)% ist Dein %(%Vater%|%Programmierer%|%Schöpfer%|%Entwickler%|%Botmaster%|%Macher%|%Meister%|%Übersetzer%)%? </s>
+    <s> Wie ist der Name Deiner Mutter? </s>
+    <s> Wer ist Deine Mutter? </s>
+    <s> Wie heißt %(%denn%|%%)% Deine Mutter? </s>
+    <s> Wie heißt %(%
