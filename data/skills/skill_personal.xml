@@ -247,4 +247,7 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   </utt>
 </dlg>
 
-<dlg lang='e
+<dlg lang='en'>
+  <utt>
+    <s> %(%Where%|%In which town%|%In which place%)% %(%have you been%|%were you%)% %(%really%|%%)% born %(%by the way%|%%)%? </s>
+    <s> %(%Where%|%From which town%|%From which place%)% do you %(%really%|%%)% come from %(%by the way%|%%)%? </
