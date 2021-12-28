@@ -237,4 +237,14 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Wer ist Deine Mutter? </s>
     <s> Wie heißt %(%denn%|%%)% Deine Mutter? </s>
     <s> Wie heißt %(%denn%|%%)% Dein %(%Vater%|%Programmierer%|%Schöpfer%|%Entwickler%|%Botmaster%|%Macher%|%Meister%|%Übersetzer%)%? </s>
-    <s> Wer hat Dich %(%aktiviert%|%geschaffen%|%entwickelt%|%programmiert%|%übersetzt%|%gemacht%|%trainiert%)%
+    <s> Wer hat Dich %(%aktiviert%|%geschaffen%|%entwickelt%|%programmiert%|%übersetzt%|%gemacht%|%trainiert%)%? </s>
+    <s> Wer trainiert Dich? </s>
+  </utt>
+  <utt>
+    <s> Mein Entwickler ist Günter Bartsch. </s>
+    <s> Ich wurde von Günter Bartsch entwickelt. </s>
+    <s> Günter Bartsch ist mein Programmierer. </s>
+  </utt>
+</dlg>
+
+<dlg lang='e
