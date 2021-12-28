@@ -220,4 +220,13 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> What is the name of your %(%father%|%mother%|%creator%|%programmer%|%botmaster%|%maker%|%master%|%translator%)%? </s>
     <s> What is your %(%father's%|%mother's%|%programmer's%|%creator's%|%botmaster's%|%maker's%|%master's%|%translator's%)% name? </s>
     <s> %(%Who%|%What%)% is your %(%father%|%mother%|%programmer%|%creator%|%botmaster%|%maker%|%master%|%translator%)%? </s>
-    <s> Who %(%created%|%programmed%|%developed%|%activ
+    <s> Who %(%created%|%programmed%|%developed%|%activated%|%made%|%trained%|%trains%|%translated%)% you? </s>
+  </utt>
+  <utt>
+    <s> My creator is ${creator}. </s>
+    <s> I was developed by ${creator}. </s>
+    <s> ${creator} is my developer. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  
