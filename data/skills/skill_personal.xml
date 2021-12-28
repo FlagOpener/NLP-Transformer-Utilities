@@ -216,4 +216,6 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='en'>
   <utt>
-    <s> Wha
+    <s> What are your parents' names? </s>
+    <s> What is the name of your %(%father%|%mother%|%creator%|%programmer%|%botmaster%|%maker%|%master%|%translator%)%? </s>
+    <s> What is your %(%father's%|%mother's%|%programmer's%|%creator's%|%botmaster's%|%
