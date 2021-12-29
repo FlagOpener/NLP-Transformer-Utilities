@@ -259,4 +259,9 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='de'>
   <utt>
-    <s> %(%An welchem Ort%|%in welcher Stadt%|%wo%)% %(%bist%|%wur
+    <s> %(%An welchem Ort%|%in welcher Stadt%|%wo%)% %(%bist%|%wurdest%)% Du %(%eigentlich%|%wirklich%|%%)% geboren? </s>
+    <s> %(%Aus welchem Ort%|%aus welcher Stadt%|%wo%)% kommst Du %(%eigentlich%|%%)% her? </s>
+  </utt>
+  <utt>
+    <s> Ich bin in ${birthplace} zum ersten Mal in Betrieb gegangen. </s>
+    <s> In ${birthplace
