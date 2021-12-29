@@ -264,4 +264,10 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   </utt>
   <utt>
     <s> Ich bin in ${birthplace} zum ersten Mal in Betrieb gegangen. </s>
-    <s> In ${birthplace
+    <s> In ${birthplace} und Du? </s>
+  </utt>
+</dlg>
+
+<dlg lang='en'>
+  <utt>
+    <s> %(%and,%|%%)% %(%in which town%|%in which place%|%where%)% %(%are you living%|%are you located%|%are you%|%do you live%|%do you actually live%|%do you 
