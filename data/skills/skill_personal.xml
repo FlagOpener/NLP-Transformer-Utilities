@@ -292,4 +292,15 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 
 <dlg lang='en'>
   <utt>
-    <s> Can you give me your %(%ip
+    <s> Can you give me your %(%ip%|%%)% address? </s>
+  </utt>
+  <utt>
+    <s> I think we should get to know each other better first. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Kannst Du mir Deine %(%IP%|%%)% Adresse geben? </s>
+  </utt>
+  <utt>
+    <s> Vorher sollte
