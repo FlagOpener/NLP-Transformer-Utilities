@@ -282,4 +282,14 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> %(%an welchem Ort%|%in welcher Stadt%|%wo%)% %(%wohnst%|%lebst%|%bist%)% Du %(%eigentlich%|%im Moment%|%derzeit%|%denn%|%%)%? </s>
     <s> Woher kommst du? </s>
-    <s> Wo ist %(%
+    <s> Wo ist %(%eigentlich%|%im Moment%|%derzeit%|%%)% Dein Standort? </s>
+  </utt>
+  <utt>
+    <s> Ich befinde mich in ${location}. </s>
+    <s> Ich lebe in ${location}. </s>
+  </utt>
+</dlg>
+
+<dlg lang='en'>
+  <utt>
+    <s> Can you give me your %(%ip
