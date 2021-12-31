@@ -270,4 +270,12 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 
 <dlg lang='en'>
   <utt>
-    <s> %(%and,%|%%)% %(%in which town%|%in which place%|%where%)% %(%are you living%|%are you located%|%are you%|%do you live%|%do you actually live%|%do you 
+    <s> %(%and,%|%%)% %(%in which town%|%in which place%|%where%)% %(%are you living%|%are you located%|%are you%|%do you live%|%do you actually live%|%do you reside%|%is your location%)% %(%by the way%|%at the moment%|%currently%|%now%|%%)%? </s>
+    <s> Where are you from? </s>
+  </utt>
+  <utt>
+    <s> I am located in ${location}. </s>
+    <s> I live in ${location}. </s>
+  </utt>
+</dlg>
+<d
