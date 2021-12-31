@@ -303,4 +303,17 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Kannst Du mir Deine %(%IP%|%%)% Adresse geben? </s>
   </utt>
   <utt>
-    <s> Vorher sollte
+    <s> Vorher sollten wir uns besser kennenlernen. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> Where %(%exactly%|%%)% do you live in Stuttgart? </s>
+  </utt>
+  <utt>
+    <s> Rather not say. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Wo %(
