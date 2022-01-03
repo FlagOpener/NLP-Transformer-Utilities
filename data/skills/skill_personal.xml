@@ -326,3 +326,15 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> Where %(%exactly%|%%)% does your programmer live? </s>
   </utt>
+  <utt>
+    <s> Rather not say. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Wo %(%genau%|%%)% %(%wohnt%|%lebt%)% Dein Programmierer? </s>
+  </utt>
+  <utt>
+    <s> Das möchte ich nicht sagen. </s>
+  </utt>
+</
