@@ -373,4 +373,13 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 <dlg lang='de'>
   <utt>
     <s> %(%Welcher ist%|%Wer ist%|%Wie heißt%)% Dein liebster %(%Buch%|%Science Fiction%|%Krimi%|%Bestseller%|%%)% Autor? </s>
-    <s> %(%Welches ist%|%Was ist%|%Wie
+    <s> %(%Welches ist%|%Was ist%|%Wie heißt%)% Dein %(%liebstes Buch%|%Lieblingsbuch%)%? </s>
+  </utt>
+  <utt>
+    <s> ${favauthor} </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> %(%Which%|%What%)% do you read %(%by the way%|%%)%? </s>
+    <s> what have you 
