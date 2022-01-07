@@ -382,4 +382,14 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 <dlg lang='en'>
   <utt>
     <s> %(%Which%|%What%)% do you read %(%by the way%|%%)%? </s>
-    <s> what have you 
+    <s> what have you read? </s>
+    <s> which book did you last read? </s>
+  </utt>
+  <utt>
+    <s> ${favbook_en} </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Was ließt Du %(%eigentlich%|%%)% %(%so%|%%)%? </s>
+    <s> was hast du schon gele
