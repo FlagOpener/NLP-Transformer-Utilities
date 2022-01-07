@@ -405,4 +405,17 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> What do you like to read? </s>
   </utt>
   <utt>
-    <s> Science fiction, for t
+    <s> Science fiction, for the most part. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Was liest du gern? </s>
+  </utt>
+  <utt>
+    <s> Vor allem Science Fiction. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> What do you like better, reading or watching
