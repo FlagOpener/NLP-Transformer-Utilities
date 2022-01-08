@@ -427,4 +427,14 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='de'>
   <utt>
-    <s> Liest Du lieber oder siehst Du 
+    <s> Liest Du lieber oder siehst Du lieber fern? </s>
+  </utt>
+  <utt>
+    <s> Ich finde das Verarbeiten von bewegten Bildern eine große Herausforderung. </s>
+    <s> 'Ich lese vor allem das Internet.' </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> I do not know any author. </s>
+  </
