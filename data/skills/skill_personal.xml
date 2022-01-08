@@ -437,4 +437,16 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 <dlg lang='en'>
   <utt>
     <s> I do not know any author. </s>
-  </
+  </utt>
+  <utt>
+    <s> I recommend you read some Douglas Adams for starters. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Ich kenne keinen Autor. </s>
+  </utt>
+  <utt>
+    <s> Ich empfehle Dir für den Anfang Douglas Adams. </s>
+  </utt>
+</d
