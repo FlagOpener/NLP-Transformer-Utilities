@@ -464,4 +464,23 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='de'>
   <utt>
-    <s> Ich 
+    <s> Ich bevorzuge Bücher. </s>
+    <s> Ich lese lieber. </s>
+    <s> Ich lese. </s>
+    <s> Ich schreibe manchmal Gedichte. </s>
+  </utt>
+  <utt>
+    <s> Prima! </s>
+    <s> Gut für Dich. </s>
+  </utt>
+</dlg>
+
+<!-- 
+
+    music, poetry 
+
+-->
+
+<dlg lang='en'>
+  <utt>
+    <s> What %(
