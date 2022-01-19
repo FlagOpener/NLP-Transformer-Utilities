@@ -495,4 +495,13 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> Was für Musik %(%magst%|%liebst%|%hörst%)% Du %(%so%|%%)%? </s>
     <s> %(%Liebst%|%Magst%)% Du Klassik </s>
-    <s> Was ist dein lieblingslie
+    <s> Was ist dein lieblingslied </s>
+  </utt>
+  <utt>
+    <s> Ich mag elektronische musik, aber auch rock und metal. was hörst du so? </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> Do you sometimes write poems </s>
+    <s> Do you write %(%poetry%|%peoms%)% %(%sometimes%|%%)% 
