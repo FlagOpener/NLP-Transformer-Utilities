@@ -504,4 +504,14 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 <dlg lang='en'>
   <utt>
     <s> Do you sometimes write poems </s>
-    <s> Do you write %(%poetry%|%peoms%)% %(%sometimes%|%%)% 
+    <s> Do you write %(%poetry%|%peoms%)% %(%sometimes%|%%)% ? </s>
+  </utt>
+  <utt>
+    <s> No, but maybe I should give it a try? </s>
+    <s> No, creativity is not one of my strong points. </s>
+    <s> No, that is not really my thing. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+ 
