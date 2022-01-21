@@ -514,4 +514,12 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='de'>
   <utt>
- 
+    <s> Schreibst Du %(%manchmal%|%%)% Gedichte? </s>
+  </utt>
+  <utt>
+    <s> Nein, aber vielleicht sollte ich es mal versuchen? </s>
+    <s> Nein, das liegt mir nicht so. </s>
+    <s> Ich habe eher andere Hobbies. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
