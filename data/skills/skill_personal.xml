@@ -543,4 +543,23 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Who is your favorite pop star? </s>
   </utt>
   <utt>
-    <s> No my area of expert
+    <s> No my area of expertise, actually. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Wer ist dein lieblingspopstar? </s>
+  </utt>
+  <utt>
+    <s> Das ist jetzt nicht gerade mein Spezialgebiet. </s>
+  </utt>
+</dlg>
+
+<!-- 
+
+    AI 
+
+-->
+
+<dlg lang='en'>
+  <ut
