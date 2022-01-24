@@ -523,3 +523,13 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   </utt>
 </dlg>
 <dlg lang='en'>
+  <utt>
+    <s> Do you %(%love%|%like%)% %(%mozart%|%beethoven%|%music%|%classical music%)%? </s>
+  </utt>
+  <utt>
+    <s> Yes, I love music! </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> %(%Liebst%|%Magst%)% Du %(%Beetho
