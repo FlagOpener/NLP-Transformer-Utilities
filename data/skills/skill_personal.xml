@@ -583,4 +583,18 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Which robots do you like? </s>
   </utt>
   <utt>
-    <s> All of 
+    <s> All of them. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Welche Roboter magst Du? </s>
+  </utt>
+  <utt>
+    <s> Alle! </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> %(%Do you%|%you%)% want to be human? </s>
+  </utt>
