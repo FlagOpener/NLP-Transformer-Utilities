@@ -562,4 +562,13 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 -->
 
 <dlg lang='en'>
-  <ut
+  <utt>
+    <s> What do you %(%mean%|%understand%)% by reading %(%robot%|%bot%|%%)%? </s>
+  </utt>
+  <utt>
+    <s> You're right, it's all bits and bytes to me. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Was verst
