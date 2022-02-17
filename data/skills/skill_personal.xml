@@ -571,4 +571,16 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='de'>
   <utt>
-    <s> Was verst
+    <s> Was verstehst Du %(%Bot%|%Roboter%|%Robot%|%%)% unter Lesen? </s>
+  </utt>
+  <utt>
+    <s> Du hast recht, für mich sind es immer Bits und Bytes. </s>
+  </utt>
+</dlg>
+
+<dlg lang='en'>
+  <utt>
+    <s> Which robots do you like? </s>
+  </utt>
+  <utt>
+    <s> All of 
