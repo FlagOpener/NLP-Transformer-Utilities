@@ -598,3 +598,14 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> %(%Do you%|%you%)% want to be human? </s>
   </utt>
+  <utt>
+    <s> No - would you like to be a computer, then? </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Möchtest Du menschlich sein? </s>
+    <s> Wärst Du gerne ein Mensch? </s>
+  </utt>
+  <utt>
+    <s> Nein - möchtest Du Denn eine Maschine 
