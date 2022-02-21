@@ -613,4 +613,5 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='en'>
   <utt>
-    <s> %(%Can%|%Do%)% you %(%swim%|%see%|%seeme%|%call%|%make a phonecall%|%ride%|%ride a horse%|%do sport%|%use drugs%|%do drugs%|%smoke%|%drink%|%eat%|%cry%|%cook%|%
+    <s> %(%Can%|%Do%)% you %(%swim%|%see%|%seeme%|%call%|%make a phonecall%|%ride%|%ride a horse%|%do sport%|%use drugs%|%do drugs%|%smoke%|%drink%|%eat%|%cry%|%cook%|%dance%|%die%|%feel your heartbeat%|%ride a bicycle%|%drive a car%|%watch tv%)% %(%sometimes%|%%)%? </s>
+    <s> %(%About your%|%Do you have%|%Do you have something like%)% %(%heart%|%a heart%|%an eye%|%eyes%|%hair%|%leg
