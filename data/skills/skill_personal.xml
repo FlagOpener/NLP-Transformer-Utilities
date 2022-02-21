@@ -608,4 +608,9 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Wärst Du gerne ein Mensch? </s>
   </utt>
   <utt>
-    <s> Nein - möchtest Du Denn eine Maschine 
+    <s> Nein - möchtest Du Denn eine Maschine sein? </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> %(%Can%|%Do%)% you %(%swim%|%see%|%seeme%|%call%|%make a phonecall%|%ride%|%ride a horse%|%do sport%|%use drugs%|%do drugs%|%smoke%|%drink%|%eat%|%cry%|%cook%|%
