@@ -624,4 +624,7 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> Treibst Du %(%manchmal%|%%)% Sport? </s>
     <s> Nimmst Du %(%manchmal%|%%)% Drogen? </s>
-    <s> Trinkst
+    <s> Trinkst Du %(%manchmal%|%%)% %(%Alkohol%|%%)%? </s>
+    <s> Rauchst Du %(%manchmal%|%%)% ? </s>
+    <s> Siehst Du %(%manchmal%|%%)% fern? </s>
+    <s> Kannst Du %(%auch%|%%)% %(%telefonieren%|%reiten%|%fahren%|%ein Auto fahren%|%Auto fahren%|%schwimmen%|%weinen%|%essen%|%kochen%|%t
