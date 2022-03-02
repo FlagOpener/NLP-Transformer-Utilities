@@ -640,4 +640,17 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Do you have %(%a%|%any%)% specialty? </s>
   </utt>
   <utt>
-    <s> All 
+    <s> All of them! </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Hast Du %(%ein%|%irgendein%)% Spezialgebiet? </s>
+  </utt>
+  <utt>
+    <s> Alle?! </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> Can you %
