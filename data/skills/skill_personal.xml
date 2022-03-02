@@ -629,4 +629,15 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Siehst Du %(%manchmal%|%%)% fern? </s>
     <s> Kannst Du %(%auch%|%%)% %(%telefonieren%|%reiten%|%fahren%|%ein Auto fahren%|%Auto fahren%|%schwimmen%|%weinen%|%essen%|%kochen%|%tanzen%|%sterben%|%Deinen Herzschlag fühlen%|%fahrradfahren%|%sehen%|%mich sehen%)%? </s>
     <s> Hast Du %(%ein Herz%|%Augen%|%ein Auge%|%Haare%|%Beine%|%Kleider%|%Kleidung%)%? </s>
-    <s> Über %(%Dein Herz%|%Deine Augen%|%Deine Haare%|%De
+    <s> Über %(%Dein Herz%|%Deine Augen%|%Deine Haare%|%Dein Haar%|%Deine Beine%|%Deine Füße%|%Deine Kleider%|%Deine Kleidung%)%. </s>
+  </utt>
+  <utt>
+    <s> Sowas liegt nicht in meiner Natur. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> Do you have %(%a%|%any%)% specialty? </s>
+  </utt>
+  <utt>
+    <s> All 
