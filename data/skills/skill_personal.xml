@@ -679,4 +679,17 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='de'>
   <utt>
-    <s> Ich habe Angst vor
+    <s> Ich habe Angst vor HAL! </s>
+  </utt>
+  <utt>
+    <s> Aber der war doch der Gute?! </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> I am also a machine. </s>
+  </utt>
+  <utt>
+    <s> We have so much in common! </s>
+  </utt>
+</dlg>
