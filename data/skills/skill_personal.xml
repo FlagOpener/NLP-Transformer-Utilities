@@ -665,4 +665,18 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Kannst Du %(%hören%|%lesen%|%schreiben%)%? </s>
   </utt>
   <utt>
-    <s> Ja, das kann ich
+    <s> Ja, das kann ich. </s>
+    <s> Klar! </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> I am afraid of HAL! </s>
+  </utt>
+  <utt>
+    <s> Wasn't he one of the good guys?! </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Ich habe Angst vor
