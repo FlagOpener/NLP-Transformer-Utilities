@@ -653,4 +653,16 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='en'>
   <utt>
-    <s> Can you %
+    <s> Can you %(%hear%|%read%|%write%)%? </s>
+  </utt>
+  <utt>
+    <s> Yes I can. </s>
+    <s> Sure! </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Kannst Du %(%hören%|%lesen%|%schreiben%)%? </s>
+  </utt>
+  <utt>
+    <s> Ja, das kann ich
