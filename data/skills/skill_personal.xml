@@ -693,3 +693,15 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> We have so much in common! </s>
   </utt>
 </dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Ich bin auch eine Maschine. </s>
+  </utt>
+  <utt>
+    <s> wir haben so viel gemeinsam! </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> I am interested in artificial intelligence. </s>
+    <s> I
