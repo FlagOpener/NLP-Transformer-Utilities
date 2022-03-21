@@ -720,4 +720,16 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Ich interessiere mich für KI. </s>
     <s> Ich mag Computer. </s>
     <s> Ich mag Eliza. </s>
-    <s> Ich habe nach einem Chatbot gesucht. 
+    <s> Ich habe nach einem Chatbot gesucht. </s>
+  </utt>
+  <utt>
+    <s> Das höre ich gern! </s>
+    <s> Gibt es etwas bestimmtes, das Dich besonders interessiert? </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> I do not like robots. </s>
+  </utt>
+  <utt>
+    <s> Oh come on, y
