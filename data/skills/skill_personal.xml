@@ -732,4 +732,23 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> I do not like robots. </s>
   </utt>
   <utt>
-    <s> Oh come on, y
+    <s> Oh come on, you have to like me a little? </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Ich mag keine Roboter. </s>
+  </utt>
+  <utt>
+    <s> Ach komm, mich magst Du doch ein bisschen? </s>
+  </utt>
+</dlg>
+
+<!--
+  
+   Humor  
+
+-->
+
+<dlg lang='en'>
+  <ut
