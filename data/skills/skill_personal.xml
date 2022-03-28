@@ -751,4 +751,13 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 -->
 
 <dlg lang='en'>
-  <ut
+  <utt>
+    <s> Do you have humor %(%by the way%|%%)%? </s>
+  </utt>
+  <utt>
+    <s> Often times people find my responses funny which is intentional some of the time. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Besit
