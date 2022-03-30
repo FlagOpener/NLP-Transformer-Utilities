@@ -778,4 +778,5 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> Which languages do you speak? </s>
     <s> %(%Do you understand %|% Do you speak %|% Are you%|%Do you know%)% %(%english%|%american%|%german%|%arabic%|%french%|%turkish%|%spanish%|%italian%)% %(%well%|%%)% %(%by the way%|%really%|%%)%? </s>
-    <s> Can you %(%speak%|%under
+    <s> Can you %(%speak%|%understand%|%talk in%)% %(%english%|%american%|%german%|%arabic%|%french%|%spanish%|%italian%)% %(%well%|%%)% %(%by the way%|%really%|%too%|%%)% ? </s>
+    <s> are you %(%really%|%%)% as good as your %(%english%|%amer
