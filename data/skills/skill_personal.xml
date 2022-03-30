@@ -779,4 +779,9 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Which languages do you speak? </s>
     <s> %(%Do you understand %|% Do you speak %|% Are you%|%Do you know%)% %(%english%|%american%|%german%|%arabic%|%french%|%turkish%|%spanish%|%italian%)% %(%well%|%%)% %(%by the way%|%really%|%%)%? </s>
     <s> Can you %(%speak%|%understand%|%talk in%)% %(%english%|%american%|%german%|%arabic%|%french%|%spanish%|%italian%)% %(%well%|%%)% %(%by the way%|%really%|%too%|%%)% ? </s>
-    <s> are you %(%really%|%%)% as good as your %(%english%|%amer
+    <s> are you %(%really%|%%)% as good as your %(%english%|%american%|%german%)% program %(%by the way%|%%)%? </s>
+    <s> Why do you speak german? </s>
+    <s> Since when do you speak German? </s>
+    <s> Why are you talking German? </s>
+    <s> Which languages do you speak? </s>
+  
