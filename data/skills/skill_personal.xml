@@ -789,4 +789,12 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> In which language may I speak? </s>
     <s> %(%Do%|%Can%)% you understand foreign languages? </s>
     <s> You can not understand foreign languages. </s>
-    <s> %(%Are your good in%|%Are you fluent in%|%How well do you speak%|%%)% %(%English%|%American%|%German%|%
+    <s> %(%Are your good in%|%Are you fluent in%|%How well do you speak%|%%)% %(%English%|%American%|%German%|%Arabic%|%French%|%Turkish%|%Spanish%|%Italian%)%? </s>
+  </utt>
+  <utt>
+    <s> This program is set for English only, sorry. </s>
+    <s> Sorry, English only. </s>
+    <s> Sorry, English only - for now. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
