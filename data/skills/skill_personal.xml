@@ -786,4 +786,7 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Which languages do you speak? </s>
     <s> %(%Which%|%What%|%Love that%|%Is your%|%Do you like that%|%%)% language? </s>
     <s> Are you good in %(%english%|%american%|%german%|%arabic%|%french%|%turkish%|%spanish%|%italian%)%? </s>
-    <s> In which language may I spea
+    <s> In which language may I speak? </s>
+    <s> %(%Do%|%Can%)% you understand foreign languages? </s>
+    <s> You can not understand foreign languages. </s>
+    <s> %(%Are your good in%|%Are you fluent in%|%How well do you speak%|%%)% %(%English%|%American%|%German%|%
