@@ -798,3 +798,10 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   </utt>
 </dlg>
 <dlg lang='de'>
+  <utt>
+    <s> Welche Sprachen sprichst Du? </s>
+    <s> Warum kannst Du Deutsch? </s>
+    <s> Seit wann sprichst Du Deutsch? </s>
+    <s> Warum redest Du Deutsch? </s>
+    <s> Welche Sprachen sprichst Du? </s>
+    <s> %(%S
