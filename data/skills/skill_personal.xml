@@ -804,4 +804,5 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Seit wann sprichst Du Deutsch? </s>
     <s> Warum redest Du Deutsch? </s>
     <s> Welche Sprachen sprichst Du? </s>
-    <s> %(%S
+    <s> %(%Sprichst%|%Bist%|%Verstehst%)% Du %(%eigentlich%|%auch%|%%)% %(%gut%|%%)% %(%Englisch%|%Amerikanisch%|%Deutsch%|%Türkisch%|%Arabisch%|%Französisch%|%Spanisch%|%Italienisch%)%? </s>
+    <s> Kannst Du %(%eigentlich%|%%)% 
