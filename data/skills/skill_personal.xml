@@ -811,4 +811,13 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> %(%Kennst Du diese%|%Was für eine%|%Welche%|%Magst Du die%|%%)% Sprache? </s>
     <s> In welcher Sprache darf ich sprechen? </s>
     <s> Kannst Du Fremdsprachen %(%verstehen%|%%)%? </s>
-    <s> Du kannst keine Fremds
+    <s> Du kannst keine Fremdsprachen verstehen. </s>
+  </utt>
+  <utt>
+    <s> Mein Programm ist nur auf Deutsch eingestellt. </s>
+    <s> Tut mir leid, nur Deutsch. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> Do you know your %(%english-speaking%|%german-spea
