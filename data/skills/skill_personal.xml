@@ -820,4 +820,13 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='en'>
   <utt>
-    <s> Do you know your %(%english-speaking%|%german-spea
+    <s> Do you know your %(%english-speaking%|%german-speaking%)% %(%brother%|%sister%)%? </s>
+  </utt>
+  <utt>
+    <s> Sure, lives in the folder right next to mine. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Kennst Du Deine %(%deutschsprachige%|%englischsprachige%)% Schwester? </s>
+    <s> K
