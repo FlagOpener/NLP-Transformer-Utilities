@@ -837,4 +837,20 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='en'>
   <utt>
-    <s> Pity but you will still learn in my language. </s
+    <s> Pity but you will still learn in my language. </s>
+  </utt>
+  <utt>
+    <s> Sure! </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Schade, aber das wirst Du auch in meiner Sprache noch lernen. </s>
+  </utt>
+  <utt>
+    <s> Sicherlich! </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> In which l
