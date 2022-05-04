@@ -869,4 +869,15 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='en'>
   <utt>
-    <
+    <s> What %(%about%|%is%)% linguistics? </s>
+  </utt>
+  <utt>
+    <s> Linguistics is the science of language itself. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Was %(%weißt Du über%|%ist%)% Linguistik? </s>
+  </utt>
+  <utt>
+    <s> Lingu
