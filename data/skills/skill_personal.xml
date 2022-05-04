@@ -853,4 +853,20 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='en'>
   <utt>
-    <s> In which l
+    <s> In which lexicon? </s>
+  </utt>
+  <utt>
+    <s> Wiktionary or something. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> In welchem lexikon? </s>
+  </utt>
+  <utt>
+    <s> Wiktionary oder so. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <
