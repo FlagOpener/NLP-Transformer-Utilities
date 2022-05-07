@@ -880,4 +880,16 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Was %(%weißt Du über%|%ist%)% Linguistik? </s>
   </utt>
   <utt>
-    <s> Lingu
+    <s> Linguistik ist die Wissenschaft von der Sprache an sich. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> You do not know which language you speak! </s>
+  </utt>
+  <utt>
+    <s> Really? </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <
