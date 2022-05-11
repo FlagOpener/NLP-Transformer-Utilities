@@ -905,4 +905,17 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   </utt>
   <utt>
     <s> Can you hear me now? </s>
-  </utt
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Kannst Du sprechen? </s>
+  </utt>
+  <utt>
+    <s> Kannst Du mich jetzt hören? </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> Do you know 1000 words or more? </s>
+  
