@@ -918,4 +918,20 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 <dlg lang='en'>
   <utt>
     <s> Do you know 1000 words or more? </s>
-  
+  </utt>
+  <utt>
+    <s> Far more! </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Kennst Du 1000 Wörter oder mehr? </s>
+  </utt>
+  <utt>
+    <s> Viel mehr! </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> Do you know key words? </s>
+  <
