@@ -934,4 +934,22 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 <dlg lang='en'>
   <utt>
     <s> Do you know key words? </s>
-  <
+  </utt>
+  <utt>
+    <s> Lots of them! </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Kennst du Schlüsselwörter? </s>
+  </utt>
+  <utt>
+    <s> Viele! </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> Do you know many words? </s>
+  </utt>
+  <utt>
+    <s> Even 
