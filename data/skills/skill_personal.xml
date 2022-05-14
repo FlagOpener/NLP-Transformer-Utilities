@@ -965,4 +965,15 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='en'>
   <utt>
-    <s> I speak %(%French%|%English%|%German
+    <s> I speak %(%French%|%English%|%German%|%Spanish%|%Italian%)%. </s>
+  </utt>
+  <utt>
+    <s> Do you speak other languages, as well? </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Ich spreche %(%englisch%|%französisch%|%deutsch%|%spanisch%|%italienisch%)%. </s>
+  </utt>
+  <utt>
+    <s
