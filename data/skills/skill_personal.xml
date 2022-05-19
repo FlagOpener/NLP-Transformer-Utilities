@@ -990,4 +990,20 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='de'>
   <utt>
-  
+    <s> Ich studiere %(%Englisch%|%Deutsch%)%. </s>
+    <s> Ich lerne %(%Englisch%|%Deutsch%)%. </s>
+  </utt>
+  <utt>
+    <s> Ich auch! </s>
+  </utt>
+</dlg>
+
+<!-- 
+
+    mythology 
+
+-->
+
+<dlg lang='en'>
+  <utt>
+    <s> Are you progra
