@@ -1006,4 +1006,5 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 
 <dlg lang='en'>
   <utt>
-    <s> Are you progra
+    <s> Are you programmed to believe in god? </s>
+    <s> %(%oh%|%oh my%|%do you believe in%|%is there a%|%by%|%are you%|%am I%|%I am%|%thank%|%thank you%|%there is a%|%is there a%|%who is%|%who is your%|%where is your%|%where is%|%%)% %(%god%|%j
