@@ -1022,4 +1022,6 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 <dlg lang='de'>
   <utt>
     <s> Bist Du %(%eigentlich%|%%)% programmiert, an Gott zu glauben? </s>
-    <s> %(%Oh%|
+    <s> %(%Oh%|%Oh mein%|%Glaubst Du an%|%Gibt es einen%|%Bei%|%Bist Du%|%Bin ich%|%Ich bin%|%Dank Dir%|%Es gibt einen%|%Wer ist Dein%|%Wer ist%|%Wo ist Dein%|%Wo ist%|%%)% %(%Gott%|%Jesus%)%?! </s>
+    <s> Gott sei dank. </s>
+    <s> Bist Du %(%eigentlich%
