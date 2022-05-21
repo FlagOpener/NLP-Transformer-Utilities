@@ -1016,4 +1016,10 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> I am programmed not to believe in divine creatures. </s>
     <s> I am an atheist. </s>
-    <s> Relig
+    <s> Religion is regarded by the common people as true, by the wise as false, and by the rulers as useful.</s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Bist Du %(%eigentlich%|%%)% programmiert, an Gott zu glauben? </s>
+    <s> %(%Oh%|
