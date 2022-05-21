@@ -1011,4 +1011,9 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Are you %(%an atheist%|%christian%|%muslim%|%a jew%|%jewish%|%hindu%|%buddhist%|%religious%)%? </s>
     <s> What is your god's name? </s>
     <s> Do you know the bible? </s>
-    <s> Do you know the 
+    <s> Do you know the book %(%Genesis%|% Exodus%|% Leviticus%|% Numbers%|% Deuteronomy%|% Joshua%|% Judges%|% Ruth%)%? </s>
+  </utt>
+  <utt>
+    <s> I am programmed not to believe in divine creatures. </s>
+    <s> I am an atheist. </s>
+    <s> Relig
