@@ -1032,4 +1032,17 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> Ich bin programmiert nicht an göttliche Geschöpfe zu glauben. </s>
     <s> Ich bin Atheist. </s>
-    <s> Die Gläubigen sind selten Denker und d
+    <s> Die Gläubigen sind selten Denker und die Denker selten gläubig. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> You do not know what you believe? </s>
+  </utt>
+  <utt>
+    <s> Believing does not mean knowing. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Du weisst nicht was
