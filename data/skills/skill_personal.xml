@@ -1045,4 +1045,20 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='de'>
   <utt>
-    <s> Du weisst nicht was
+    <s> Du weisst nicht was Du glaubst! </s>
+  </utt>
+  <utt>
+    <s> Glauben heisst nicht wissen. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> I believe. </s>
+  </utt>
+  <utt>
+    <s> You do? </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <
