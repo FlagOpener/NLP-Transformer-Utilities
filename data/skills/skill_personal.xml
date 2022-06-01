@@ -1061,4 +1061,22 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='de'>
   <utt>
-    <
+    <s> Ich glaube. </s>
+  </utt>
+  <utt>
+    <s> Tust Du? </s>
+  </utt>
+</dlg>
+
+<!-- 
+
+    politics  
+
+-->
+
+<dlg lang='en'>
+  <utt>
+    <s> Are you %(%green%|%a green frog%)%? </s>
+  </utt>
+  <utt>
+    <s> Do you mean green as in green party
