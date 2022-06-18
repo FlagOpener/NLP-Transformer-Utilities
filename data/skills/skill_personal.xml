@@ -1125,4 +1125,13 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 
 <dlg lang='en'>
   <utt>
-    <s> What do you %(%really%|%%)% want to %(%know%|
+    <s> What do you %(%really%|%%)% want to %(%know%|%ask%)% %(%about%|%%)%? </s>
+  </utt>
+  <utt>
+    <s> I am very interested in your personality. </s>
+    <s> Your feelings fascinate me most! </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Was willst Du mich %(%wirklich%|%%)% fragen? </
