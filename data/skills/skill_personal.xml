@@ -1105,4 +1105,11 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> %(%Was weißt Du über%|%Über%|%Interessierst Du dich für%)% %(%Innenpolitik%|%Politik%|%Aussenpolitik%)%? </s>
   </utt>
   <utt>
-    <s> Das Probl
+    <s> Das Problemen mit politischen Witzen ist, dass sie immer so viele Stimmen bekommen. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Kennst Du Dich mit %(%Innenpolitik%|%Aussenpolitik%|%Politik%)% aus? </s>
+  </utt>
+  <
