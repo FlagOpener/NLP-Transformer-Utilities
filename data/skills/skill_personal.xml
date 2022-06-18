@@ -1091,4 +1091,18 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Meinst Du die Partei? </s>
     <s> Es ist nicht leicht, grün zu sein. </s>
   </utt>
-</d
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> %(%What do you know about%|%Are you interested in%|%Are you familiar with%)% %(%foreign%|%domestic%|%%)% politics? </s>
+  </utt>
+  <utt>
+    <s> The problem with political jokes is that they get elected. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> %(%Was weißt Du über%|%Über%|%Interessierst Du dich für%)% %(%Innenpolitik%|%Politik%|%Aussenpolitik%)%? </s>
+  </utt>
+  <utt>
+    <s> Das Probl
