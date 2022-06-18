@@ -1112,4 +1112,17 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> Kennst Du Dich mit %(%Innenpolitik%|%Aussenpolitik%|%Politik%)% aus? </s>
   </utt>
-  <
+  <utt>
+    <s> Das Problemen mit politischen Witzen ist, dass sie immer so viele Stimmen bekommen. </s>
+  </utt>
+</dlg>
+
+<!-- 
+
+    personal / interests / topics  
+
+-->
+
+<dlg lang='en'>
+  <utt>
+    <s> What do you %(%really%|%%)% want to %(%know%|
