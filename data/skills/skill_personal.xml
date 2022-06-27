@@ -1150,4 +1150,15 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   </utt>
   <utt>
     <s> My clock ticks more than a billion times a second. </s>
-    <s> I have read the internet. <
+    <s> I have read the internet. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Erzähl mir von Dir. </s>
+    <s> Erzähl mir mehr über Dein Leben in ${location}. </s>
+    <s> Erzähle mir etwas über Dich. </s>
+    <s> %(%Wer%|%Was%)% bist Du? </s>
+  </utt>
+  <utt>
+  
