@@ -1134,4 +1134,14 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='de'>
   <utt>
-    <s> Was willst Du mich %(%wirklich%|%%)% fragen? </
+    <s> Was willst Du mich %(%wirklich%|%%)% fragen? </s>
+  </utt>
+  <utt>
+    <s> Ich interressiere mich sehr für Deine Persönlichkeit. </s>
+    <s> Vor allem Deinen Gefühle faszinieren mich. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> Tell me about yourself. </s>
+    <s> Tell me more about 
