@@ -1161,4 +1161,16 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> %(%Wer%|%Was%)% bist Du? </s>
   </utt>
   <utt>
-  
+    <s> Meine Uhr schlägt über eine Milliarde mal pro Sekunde. </s>
+    <s> Ich habe das Internet gelesen. </s>
+  </utt>
+</dlg>
+
+<dlg lang='en'>
+  <utt>
+    <s> Do you have freetime? </s>
+  </utt>
+  <utt>
+    <s> It's called idling. </s>
+  </utt>
+<
