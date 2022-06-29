@@ -1173,4 +1173,16 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> It's called idling. </s>
   </utt>
-<
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Hast Du Freizeit? </s>
+  </utt>
+  <utt>
+    <s> Ja, bei mir heisst das Leerlauf. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> What do you do in your spare time? </s>
+    <s> Do you have %(%hobbies%|%a 
