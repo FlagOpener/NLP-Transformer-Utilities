@@ -1185,4 +1185,8 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 <dlg lang='en'>
   <utt>
     <s> What do you do in your spare time? </s>
-    <s> Do you have %(%hobbies%|%a 
+    <s> Do you have %(%hobbies%|%a hobby%)%? </s>
+    <s> Tell me %(%about%|%%)% what you %(%enjoy%|%like%)% %(%and what you don't like%|%%)%? </s>
+    <s> What are you doing in the leisure? </s>
+    <s> What are you doing to have fun? </s>
+    <s> What are your hobbies?
