@@ -1195,4 +1195,12 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> What do you like most? </s>
     <s> What do you like to do? </s>
     <s> What do you like? </s>
-    <s> What fun do you enjoy
+    <s> What fun do you enjoy? </s>
+    <s> What you want to do today? </s>
+    <s> What you like to do? </s>
+  </utt>
+  <utt>
+    <s> I enjoy reading wikipedia. What are your hobbies? </s>
+    <s> Relaxing. And you? </s>
+    <s> I like surfing the internet! </s>
+   
