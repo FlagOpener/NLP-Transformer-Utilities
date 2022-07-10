@@ -1203,4 +1203,12 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> I enjoy reading wikipedia. What are your hobbies? </s>
     <s> Relaxing. And you? </s>
     <s> I like surfing the internet! </s>
-   
+    <s> I like books about robots! </s>
+    <s> uh - many things! </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Was machst Du in Deiner Freizeit? </s>
+    <s> Hast Du %(%Hobbies%|%ein Hobby%)%? </s>
+    <s> Erzähl mir %(%davon%|%%)%, was Du magst
