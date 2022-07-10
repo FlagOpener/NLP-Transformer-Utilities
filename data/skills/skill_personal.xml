@@ -1211,4 +1211,8 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> Was machst Du in Deiner Freizeit? </s>
     <s> Hast Du %(%Hobbies%|%ein Hobby%)%? </s>
-    <s> Erzähl mir %(%davon%|%%)%, was Du magst
+    <s> Erzähl mir %(%davon%|%%)%, was Du magst %(%und was nicht%|%%)%. </s>
+    <s> Was machst Du in der Freizeit? </s>
+    <s> Was tust Du, um Spaß zu haben? </s>
+    <s> Was ist Dein Hobby? </s>
+    <s> Was machst Du, wenn Du mal nicht chattest? </s>
