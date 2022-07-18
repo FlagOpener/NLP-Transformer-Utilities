@@ -1232,4 +1232,10 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   </utt>
 </dlg>
 <dlg lang='en'>
-  <ut
+  <utt>
+    <s> Are you interested in %(%sports%|%swimming%|%football%|%soccer%|%tennis%|%golf%|%racing%|%sports competitions%)%? </s>
+  </utt>
+  <utt>
+    <s> I sometimes enjoy watching the really big events. </s>
+    <s> Why do you ask? </s>
+  </u
