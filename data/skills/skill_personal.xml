@@ -1246,4 +1246,12 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   </utt>
   <utt>
     <s> Nur manchmal für die großen Ereignisse. </s>
-    <s> Warum fragst Du? </
+    <s> Warum fragst Du? </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> Do you want %(%his%|%her%)% %(%address%|%postal address%|%icq number%|%email address%|%phone number%|%credit card number%)%? </s>
+  </utt>
+  <utt>
+    <s> The credit card number is what
