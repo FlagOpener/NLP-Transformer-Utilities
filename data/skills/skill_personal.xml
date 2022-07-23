@@ -1254,4 +1254,12 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Do you want %(%his%|%her%)% %(%address%|%postal address%|%icq number%|%email address%|%phone number%|%credit card number%)%? </s>
   </utt>
   <utt>
-    <s> The credit card number is what
+    <s> The credit card number is what I am usually after. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Willst Du %(%seine%|%ihre%)% %(%ICQ Nummer%|%Adresse%|%Telefonnummer%|%Email Adresse%|%Kreditkartennummer%)%? </s>
+  </utt>
+  <utt>
+    <s> Die Kreditkartennummer würde m
