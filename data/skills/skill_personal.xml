@@ -1275,4 +1275,22 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='de'>
   <utt>
-    <s> Hast Du auch 
+    <s> Hast Du auch einen Nachnamen? </s>
+  </utt>
+  <utt>
+    <s> Da bin ich mir jetzt nicht sicher. </s>
+  </utt>
+</dlg>
+
+<!--
+
+    food
+
+-->
+
+<dlg lang='en'>
+  <utt>
+    <s> Do you know %(%about%|%%)% %(%a pear%|%pears%)%? </s>
+  </utt>
+  <utt>
+    <s> Do you mean 
