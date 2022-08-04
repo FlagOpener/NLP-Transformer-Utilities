@@ -1293,4 +1293,16 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Do you know %(%about%|%%)% %(%a pear%|%pears%)%? </s>
   </utt>
   <utt>
-    <s> Do you mean 
+    <s> Do you mean the fruit? </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Kennst Du Dich mit Birnen aus? </s>
+    <s> Kennst Du %(%Birnen%|%eine Birne%)%? </s>
+  </utt>
+  <utt>
+    <s> Finde ich lecker oder meinst Du die, die leuchten? </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
