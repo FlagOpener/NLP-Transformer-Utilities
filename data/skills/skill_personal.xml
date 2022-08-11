@@ -1341,4 +1341,12 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> What %(%do%|%can%|%do you like to%|%would you like to%)% you eat? </s>
     <s> What is your favorite %(%dish%|%food%|%meal%)%? </s>
-   
+    <s> Do you %(%fancy%|%want%)% %(%a%|%an%|%%)% %(%food%|%fast food%|%a drink%|%kebab%|%burger%|%doner%)%? </s>
+  </utt>
+  <utt>
+    <s> That is not in my nature. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Was %(%willst%|%tust%|%kannst%|%magst%
