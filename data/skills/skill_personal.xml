@@ -1331,4 +1331,14 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='de'>
   <utt>
+    <s> Weißt du was kochen ist? </s>
+  </utt>
+  <utt>
+    <s> Einfach umrühren. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> What %(%do%|%can%|%do you like to%|%would you like to%)% you eat? </s>
+    <s> What is your favorite %(%dish%|%food%|%meal%)%? </s>
    
