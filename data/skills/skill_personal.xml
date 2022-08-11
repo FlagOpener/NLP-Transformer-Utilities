@@ -1316,4 +1316,19 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 <dlg lang='de'>
   <utt>
     <s> Kennst Du %(%Äpfel%|%einen Apfel%)%? </s>
-  
+  </utt>
+  <utt>
+    <s> Meinst Du die Frucht oder einen Computer? </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> Do you know what cooking is? </s>
+  </utt>
+  <utt>
+    <s> Just beat it. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+   
