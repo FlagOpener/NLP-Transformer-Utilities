@@ -1354,3 +1354,17 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Was ist Dein %(%Leibgericht%|%Lieblingsessen%|%Lieblingsgericht%)%? </s>
     <s> Was ist Deine Lieblingsspeise? </s>
     <s> Was möchten Sie essen? </s>
+    <s> %(%Möchtest%|%Willst%|%Magst%)% Du %(%Döner%|%Essen%|%Nahrung%|%was essen%|%was trinken%|%einen Drink%|%einen Burger%|%Fastfood%)%? </s>
+  </utt>
+  <utt>
+    <s> Sowas liegt nicht in meiner Natur. </s>
+  </utt>
+</dlg>
+
+<!-- 
+
+    private
+
+  -->
+
+<dlg l
