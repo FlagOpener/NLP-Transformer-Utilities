@@ -1367,4 +1367,7 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 
   -->
 
-<dlg l
+<dlg lang='en'>
+  <utt>
+    <s> %(%Tell me%|%%)% Are you %(%really%|%%)% %(%a male%|%a man%|%male%|%a guy%|%a boy%|%a dude%)% or %(%a female%|%female%|%a woman%|%a girl%)% %(%by the way%|%%)%? </s>
+    <s> %(%Tell me%|%%)% Are you %(%really%|%%
