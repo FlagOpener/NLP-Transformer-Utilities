@@ -1372,4 +1372,8 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> %(%Tell me%|%%)% Are you %(%really%|%%)% %(%a male%|%a man%|%male%|%a guy%|%a boy%|%a dude%)% or %(%a female%|%female%|%a woman%|%a girl%)% %(%by the way%|%%)%? </s>
     <s> %(%Tell me%|%%)% Are you %(%really%|%%)% %(%a female%|%female%|%a woman%|%a girl%)% or %(%a male%|%a man%|%male%|%a guy%|%a boy%|%a dude%)% %(%by the way%|%%)%? </s>
     <s> %(%Tell me%|%%)% Are you %(%really%|%%)% %(%a male%|%a man%|%male%|%a guy%|%a boy%|%a dude%)% %(%by the way%|%%)%? </s>
-    <s> 
+    <s> %(%Tell me%|%%)% Are you %(%really%|%%)% %(%a female%|%a woman%|%female%|%a girl%)% %(%by the way%|%%)%? </s>
+  </utt>
+  <utt>
+% if gender=='male':
+    <s> My config setting is male - doesn'
