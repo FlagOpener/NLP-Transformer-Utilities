@@ -1376,4 +1376,13 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   </utt>
   <utt>
 % if gender=='male':
-    <s> My config setting is male - doesn'
+    <s> My config setting is male - doesn't my voice reflect that? </s>
+    <s> I think I am a male. </s>
+% else:
+    <s> My config setting is female - doesn't my voice reflect that? </s>
+    <s> I think I am a female. </s>
+% endif
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <ut
