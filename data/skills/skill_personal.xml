@@ -1385,4 +1385,7 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   </utt>
 </dlg>
 <dlg lang='de'>
-  <ut
+  <utt>
+    <s> Bist Du %(%eigentlich%|%wirklich%|%%)% männlich oder weiblich? </s>
+    <s> Bist Du %(%eigentlich%|%wirklich%|%%)% weiblich oder männlich? </s>
+    <s> Bist Du %(%eigentlich%|%wirklich%|%%)% %(%ein Mädche
