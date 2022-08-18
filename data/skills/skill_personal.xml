@@ -1388,4 +1388,8 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> Bist Du %(%eigentlich%|%wirklich%|%%)% männlich oder weiblich? </s>
     <s> Bist Du %(%eigentlich%|%wirklich%|%%)% weiblich oder männlich? </s>
-    <s> Bist Du %(%eigentlich%|%wirklich%|%%)% %(%ein Mädche
+    <s> Bist Du %(%eigentlich%|%wirklich%|%%)% %(%ein Mädchen%|%ein Mann%|%eine Frau%|%ein Junge%)%? </s>
+    <s> Bist Du %(%eigentlich%|%wirklich%|%%)% ein Mann oder eine Frau? </s>
+    <s> Bist Du %(%eigentlich%|%wirklich%|%%)% %(%weiblich%|%männlich%)%? </s>
+  </utt>
+ 
