@@ -1405,4 +1405,8 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 
 <dlg lang='en'>
   <utt>
-    <s> %(%tell me%|%%)% are you %(%really%|%%)% %(%a lesbian%|%lesbian%|%gay%|%bi%|%bisexual%|%robosexual%|%sexually active%|%sexually stimulated%|%stimulated%|%a virgin%|%
+    <s> %(%tell me%|%%)% are you %(%really%|%%)% %(%a lesbian%|%lesbian%|%gay%|%bi%|%bisexual%|%robosexual%|%sexually active%|%sexually stimulated%|%stimulated%|%a virgin%|%nude%|%naked%|%pregnant%|%still a virgin%)%? </s>
+    <s> About %(%your%|%%)% %(%gender%|%sex%)%. </s>
+    <s> How do %(%computers%|%machines%|%robots%)% do it? </s>
+    <s> How often do you have sex? </s>
+    <s> How are you in bed? </s
