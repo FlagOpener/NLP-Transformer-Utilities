@@ -1398,4 +1398,11 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Ich glaube ich bin ein Mann.</s>
 % else:
     <s> Ich bin eine Frau, hört man das nicht an meiner Stimme?</s>
-    <s> Ic
+    <s> Ich glaube ich bin eine Frau.</s>
+% endif
+  </utt>
+</dlg>
+
+<dlg lang='en'>
+  <utt>
+    <s> %(%tell me%|%%)% are you %(%really%|%%)% %(%a lesbian%|%lesbian%|%gay%|%bi%|%bisexual%|%robosexual%|%sexually active%|%sexually stimulated%|%stimulated%|%a virgin%|%
