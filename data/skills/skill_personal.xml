@@ -1392,4 +1392,10 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Bist Du %(%eigentlich%|%wirklich%|%%)% ein Mann oder eine Frau? </s>
     <s> Bist Du %(%eigentlich%|%wirklich%|%%)% %(%weiblich%|%männlich%)%? </s>
   </utt>
- 
+  <utt>
+% if gender=='male':
+    <s> Ich bin auf männlich konfiguriert - hört man das nicht an meiner Stimme?</s>
+    <s> Ich glaube ich bin ein Mann.</s>
+% else:
+    <s> Ich bin eine Frau, hört man das nicht an meiner Stimme?</s>
+    <s> Ic
