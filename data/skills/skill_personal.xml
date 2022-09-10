@@ -1423,4 +1423,10 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> I want to fuck you! </s>
     <s> I want to sleep with you! </s>
     <s> Can you give me your IP address? </s>
-    <s> What is 
+    <s> What is your voice? </s>
+    <s> Do you have a worshiper? </s>
+    <s> How do you look? </s>
+    <s> How %(%tall%|%long%)% are you? </s>
+    <s> How much do you weigh? </s>
+    <s> What are you wearing %(%now%|%today%|%%)%? </s>
+    <s
