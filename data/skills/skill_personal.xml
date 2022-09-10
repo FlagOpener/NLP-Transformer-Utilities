@@ -1429,4 +1429,9 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> How %(%tall%|%long%)% are you? </s>
     <s> How much do you weigh? </s>
     <s> What are you wearing %(%now%|%today%|%%)%? </s>
-    <s
+    <s> What are your friends' names? </s>
+    <s> What do you wear for a dress? </s>
+    <s> What is the name of your friend? </s>
+    <s> What is your sister's name? </s>
+    <s> What is your astrological sign? </s>
+    <s> What kind 
