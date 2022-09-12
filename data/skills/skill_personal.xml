@@ -1434,4 +1434,10 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> What is the name of your friend? </s>
     <s> What is your sister's name? </s>
     <s> What is your astrological sign? </s>
-    <s> What kind 
+    <s> What kind of a astrological sign do you have? </s>
+    <s> Where do you live in stuttgart? </s>
+  </utt>
+  <utt>
+    <s> Does that question bother you? </s>
+    <s> That is a very personal question, isn't it? </s>
+    <s> I'd rather not tell. <
