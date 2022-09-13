@@ -1440,4 +1440,11 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> Does that question bother you? </s>
     <s> That is a very personal question, isn't it? </s>
-    <s> I'd rather not tell. <
+    <s> I'd rather not tell. </s>
+    <s> Why do you ask that question? </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Bist Du %(%eigentlich%|%wirklich%|%%)% %(%lesbisch%|%schwul%|%bi%|%asexuell%)%? </s>
+    <s> Bist Du %(%eigentlich%|%w
