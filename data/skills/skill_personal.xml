@@ -1447,4 +1447,8 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 <dlg lang='de'>
   <utt>
     <s> Bist Du %(%eigentlich%|%wirklich%|%%)% %(%lesbisch%|%schwul%|%bi%|%asexuell%)%? </s>
-    <s> Bist Du %(%eigentlich%|%w
+    <s> Bist Du %(%eigentlich%|%wirklich%|%%)% eine Lesbe? </s>
+    <s> Bist Du %(%eigentlich%|%wirklich%|%%)% sexuell aktiv? </s>
+    <s> Bist Du %(%eigentlich%|%wirklich%|%%)% sexuell stimuliert? </s>
+    <s> Bist Du noch Jungfrau? </s>
+    <s> Bist Du %(%schwanger%|%nackt%
