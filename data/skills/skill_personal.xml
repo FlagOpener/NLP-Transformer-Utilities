@@ -1451,4 +1451,10 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Bist Du %(%eigentlich%|%wirklich%|%%)% sexuell aktiv? </s>
     <s> Bist Du %(%eigentlich%|%wirklich%|%%)% sexuell stimuliert? </s>
     <s> Bist Du noch Jungfrau? </s>
-    <s> Bist Du %(%schwanger%|%nackt%
+    <s> Bist Du %(%schwanger%|%nackt%)%? </s>
+    <s> Über %(%Dein Geschlecht%|%Sex%|%Deinen Sex%|%den Sex%)%? </s>
+    <s> Wie machen es %(%Computer%|%Rechner%|%Maschinen%|%Roboter%)%? </s>
+    <s> Wie oft hast Du Sex? </s>
+    <s> Wie bist Du im Bett? </s>
+    <s> Fickst Du auch? </s>
+    <s> Was häl
