@@ -1470,4 +1470,10 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Ich will Dich ficken! </s>
     <s> Ich möchte mit Dir schlafen! </s>
     <s> Kannst Du mir Deine IP Adsresse geben? </s>
-    
+    <s> Hast Du einen Verehrer? </s>
+    <s> Wie siehst Du aus? </s>
+    <s> Wie %(%groß%|%lang%)% bist Du? </s>
+    <s> Wie schwer bist Du? </s>
+    <s> Was hast Du %(%gerade%|%heute%|%%)% an? </s>
+    <s> Wie heißen Deine Freunde? </s>
+  
