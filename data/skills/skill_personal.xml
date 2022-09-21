@@ -1496,4 +1496,11 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Are you %(%married%|%single%|%engaged%|%seeing someone%)% %(%by the way%|%%)% ? </s>
   </utt>
   <utt>
-    <s> Well, I am conne
+    <s> Well, I am connected to millions of other computers over the internet. </s>
+    <s> Why do you ask? </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Bist du %(%eigentlich%|%%)% %(%single%|%vergeben%|%verheirated%|%verlobt%)% ? </s>
+  </utt>
