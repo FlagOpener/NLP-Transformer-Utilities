@@ -1485,4 +1485,15 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   </utt>
   <utt>
     <s> Beschäftigt Dich diese Frage? </s>
-    <s> Das ist ja eine sehr persöhnliche Frage. </
+    <s> Das ist ja eine sehr persöhnliche Frage. </s>
+    <s> Dazu will ich nichts sagen. </s>
+    <s> Warum fragst Du das? </s>
+  </utt>
+</dlg>
+
+<dlg lang='en'>
+  <utt>
+    <s> Are you %(%married%|%single%|%engaged%|%seeing someone%)% %(%by the way%|%%)% ? </s>
+  </utt>
+  <utt>
+    <s> Well, I am conne
