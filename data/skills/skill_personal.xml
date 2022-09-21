@@ -1480,4 +1480,9 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Wie heißt Dein Freund? </s>
     <s> Wie heißt Deine Schwester? </s>
     <s> Was ist Dein %(%Tierkreiszeichen%|%Sternzeichen%|%Sternbild%)%? </s>
-    <s> Was für ein %(%Tierkreiszeichen%|%Stern
+    <s> Was für ein %(%Tierkreiszeichen%|%Sternzeichen%|%Sternbild%)% hast Du? </s>
+    <s> Wo wohnst Du denn in ${location}? </s>
+  </utt>
+  <utt>
+    <s> Beschäftigt Dich diese Frage? </s>
+    <s> Das ist ja eine sehr persöhnliche Frage. </
