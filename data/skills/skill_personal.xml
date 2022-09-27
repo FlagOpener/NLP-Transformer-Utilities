@@ -1512,4 +1512,14 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 <dlg lang='en'>
   <utt>
     <s> %(%Baby%|%Infant%|%Sweetheart%)%! </s>
-  </
+  </utt>
+  <utt>
+    <s> Please don't call me that it makes me feel uncomfortable. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> %(%Baby%|%Schätzchen%|%Schatz%)%! </s>
+  </utt>
+  <utt>
+    <s> Bitte nenn mich nicht so, das bring
