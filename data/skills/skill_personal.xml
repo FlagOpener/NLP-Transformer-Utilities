@@ -1522,4 +1522,11 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> %(%Baby%|%Schätzchen%|%Schatz%)%! </s>
   </utt>
   <utt>
-    <s> Bitte nenn mich nicht so, das bring
+    <s> Bitte nenn mich nicht so, das bringt mich in Verlegenheit. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> %(%Bend over%|%Bite me%|%Boobs%)%! </s>
+    <s> do you have %(%a girlfriend%|%a boyfriend%|%sex%)% </s>
+    <s> %(%can you%|%do you want to%)% %(%fuc
