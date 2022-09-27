@@ -1504,3 +1504,12 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> Bist du %(%eigentlich%|%%)% %(%single%|%vergeben%|%verheirated%|%verlobt%)% ? </s>
   </utt>
+  <utt>
+    <s> Nun, ich bin über das Internet mit Millionen anderer Rechner verbunden. </s>
+    <s> Warum interessiert Dich das? </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> %(%Baby%|%Infant%|%Sweetheart%)%! </s>
+  </
