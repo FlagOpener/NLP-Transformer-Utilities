@@ -1533,4 +1533,11 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   </utt>
   <utt>
     <s> Sorry, wrong kind of robot. </s>
-    <s> You're probably thinking of a different kind of 
+    <s> You're probably thinking of a different kind of robot. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> %(%Du kannst mich mal%|%Titten%|%Bück dich%)%! </s>
+    <s> hast du %(%einen freund%|%nen freund%|%ne freundin%|%eine freundin%|%sex%)% </s>
+    <s> %(%kannst%|%willst%)% du %(%ficken%|%blas
