@@ -1562,4 +1562,20 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Kennst Du %(%Sex%|%ficken%|%bumsen%|%Kondome%)%? </s>
   </utt>
   <utt>
-    <s> Klar, die Wikiped
+    <s> Klar, die Wikipedia ist da sehr detailliert. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> Do you have boobs? </s>
+  </utt>
+  <utt>
+    <s> No. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Hast Du Titten? </s>
+  </utt>
+  <utt>
+    <s
