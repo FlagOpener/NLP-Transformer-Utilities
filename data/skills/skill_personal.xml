@@ -1553,4 +1553,13 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Do you know %(%sex%|%fucking%|%condoms%)%? </s>
   </utt>
   <utt>
-    <s> Sure, wikipedia has 
+    <s> Sure, wikipedia has all the details! </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Weisst Du, was %(%Sex%|%ficken%|%bumsen%|%ein Kondom%)% ist? </s>
+    <s> Kennst Du %(%Sex%|%ficken%|%bumsen%|%Kondome%)%? </s>
+  </utt>
+  <utt>
+    <s> Klar, die Wikiped
