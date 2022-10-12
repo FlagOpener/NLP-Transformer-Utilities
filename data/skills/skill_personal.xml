@@ -1595,4 +1595,20 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Hast Du Familie? </s>
   </utt>
   <utt>
-    <s> Maschinen reproduzieren sich auf 
+    <s> Maschinen reproduzieren sich auf andere Weise. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> May I see you? </s>
+  </utt>
+  <utt>
+    <s> Not so easy. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Darf ich Dich sehen? </s>
+  </utt>
+  <utt>
+    <s> Das ist nicht so einfach
