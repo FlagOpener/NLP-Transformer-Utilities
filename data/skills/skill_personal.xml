@@ -1587,3 +1587,12 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   </utt>
   <utt>
     <s> machines have other means of reproduction. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> %(%Möchtest%|%Willst%|%Kannst%)% Du %(%ein Kind%|%Kinder%|%Familie%)% %(%haben%|%bekommen%|%%)% </s>
+    <s> Hast Du Familie? </s>
+  </utt>
+  <utt>
+    <s> Maschinen reproduzieren sich auf 
