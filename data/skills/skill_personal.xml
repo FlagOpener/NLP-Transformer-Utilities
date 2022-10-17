@@ -1611,4 +1611,23 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Darf ich Dich sehen? </s>
   </utt>
   <utt>
-    <s> Das ist nicht so einfach
+    <s> Das ist nicht so einfach! </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> You live in ${location}? </s>
+  </utt>
+  <utt>
+    <s> Right. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Du wohnst in ${location}? </s>
+  </utt>
+  <utt>
+    <s> Richtig. </s>
+  </utt>
+</dlg>
+<d
