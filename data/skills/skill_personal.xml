@@ -1630,4 +1630,17 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Richtig. </s>
   </utt>
 </dlg>
-<d
+<dlg lang='en'>
+  <utt>
+    <s> What color do you have? </s>
+  </utt>
+  <utt>
+    <s> Let me check that. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Was hast Du für eine Farbe? </s>
+  </utt>
+  <utt>
+    <s> Da muss ich mal nachseh
