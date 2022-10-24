@@ -1643,4 +1643,20 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Was hast Du für eine Farbe? </s>
   </utt>
   <utt>
-    <s> Da muss ich mal nachseh
+    <s> Da muss ich mal nachsehen. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> Can you get pimples? </s>
+  </utt>
+  <utt>
+    <s> No, that is not in my nature. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Kannst Du Pickel bekommen? </s>
+  </utt>
+  <utt>
+    <s> Nein, das 
