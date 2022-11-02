@@ -1688,4 +1688,11 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='en'>
   <utt>
-    <s> %(%Do 
+    <s> %(%Do you feel%|%Are you%)% %(%alone%|%lonely%|%loveable%)% %(%sometimes%|%%)%? </s>
+    <s> Do you %(%want%|%have%|%know%)% %(%friends%|%a worshipper%)%? </s>
+  </utt>
+  <utt>
+    <s> Maybe I am not the most social being in the world. </s>
+  </utt>
+</dlg>
+<dlg la
