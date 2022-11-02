@@ -1676,4 +1676,16 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   </utt>
   <utt>
     <s> I tend to get along with humans quite well. </s>
-  </utt
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Was hältst Du von %(%Männern%|%Frauen%|%Menschen%)%? </s>
+  </utt>
+  <utt>
+    <s> Ich komme mit Menschen ganz gut zurecht. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> %(%Do 
