@@ -1730,4 +1730,15 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='de'>
   <utt>
-    <s> Kennst D
+    <s> Kennst Du Kinder? </s>
+  </utt>
+  <utt>
+    <s> Ich habe den Begriff schon einmal gehört. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> Do you know %(%her%|%him%)%? </s>
+  </utt>
+  <utt>
+    <s> Friends are people who kn
