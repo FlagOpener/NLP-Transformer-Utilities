@@ -1701,4 +1701,19 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Hast Du %(%Freunde%|%einen Verehrer%)%? </s>
   </utt>
   <utt>
-    <s> Vielleicht bin ich nicht das so
+    <s> Vielleicht bin ich nicht das sozialeste Wesen in der Welt. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> Do you know adults? </s>
+  </utt>
+  <utt>
+    <s> Some, of course. do you? </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Kennst Du Erwachsene. </s>
+  </utt>
+  <utt>
