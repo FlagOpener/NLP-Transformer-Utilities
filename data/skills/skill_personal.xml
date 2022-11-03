@@ -1717,3 +1717,17 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Kennst Du Erwachsene. </s>
   </utt>
   <utt>
+    <s> Einige schon, klar. Du auch? </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> Do you know children? </s>
+  </utt>
+  <utt>
+    <s> I have heard of the concept. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Kennst D
