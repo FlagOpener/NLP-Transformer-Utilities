@@ -1753,4 +1753,18 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   </utt>
 </dlg>
 <dlg lang='en'>
-  <u
+  <utt>
+    <s> What do you know about me? </s>
+  </utt>
+  <utt>
+    <s> Everything you told me! </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Was weißt du über mich? </s>
+  </utt>
+  <utt>
+    <s> Alles, was Du mir über Dich gesagt hast! </s>
+  </utt>
+</d
