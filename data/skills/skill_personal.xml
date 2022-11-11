@@ -1795,4 +1795,15 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='de'>
   <utt>
-    <s>
+    <s> Wo bin ich? </s>
+  </utt>
+  <utt>
+    <s> Wo möchtest Du denn gerne sein? </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> Where %(%do I come%|%am I%)% from </s>
+  </utt>
+  <utt>
+    <s> You popped out of nowhere as far
