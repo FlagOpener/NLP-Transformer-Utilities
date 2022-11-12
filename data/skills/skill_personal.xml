@@ -1806,4 +1806,18 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Where %(%do I come%|%am I%)% from </s>
   </utt>
   <utt>
-    <s> You popped out of nowhere as far
+    <s> You popped out of nowhere as far as I remember. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Wo komme ich %(%denn%|%%)% her? </s>
+  </utt>
+  <utt>
+    <s> Du warst einfach da, soweit ich mich erinnere. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Woher komme ich? </s>
+  </utt>
