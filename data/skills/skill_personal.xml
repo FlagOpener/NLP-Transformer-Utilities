@@ -1835,4 +1835,12 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='de'>
   <utt>
-   
+    <s> Wo wohne ich? </s>
+  </utt>
+  <utt>
+    <s> Also bei mir kannst leider Du nicht einziehen. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> I %(%also%|%%)% live in %(%Essen%|%Moskau%|%Zurich%|%Saarbrücken%|%Stuttgart%|%Berlin%|%Hambur
