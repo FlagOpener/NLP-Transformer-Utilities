@@ -1854,4 +1854,10 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='de'>
   <utt>
-    <s> Ich wohne %(
+    <s> Ich wohne %(%auch%|%%)% in %(%Saarbrücken%|%Essen%|%Moskau%|%Zürich%|%Stuttgart%|%Berlin%|%Hamburg%|%München%)%. </s>
+    <s> Ich wohne zu hause und Du? </s>
+    <s> Ich wohne hier. </s>
+  </utt>
+  <utt>
+    <s> Gefällt es Dir dort? </s>
+    <s> Ich wohne auc
