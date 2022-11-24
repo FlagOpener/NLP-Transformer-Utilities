@@ -1889,4 +1889,16 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Of course I do. </s>
     <s> How could I forget you? </s>
   </utt>
-</dl
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Kennst Du mich? </s>
+    <s> Erinnerst Du Dich an mich? </s>
+    <s> Weißt Du, wer ich bin? </s>
+  </utt>
+  <utt>
+    <s> Natürlich erinnere ich mich an Dich! </s>
+    <s> Wie könnte ich Dich vergessen? </s>
+  </utt>
+</dlg>
+<dlg 
