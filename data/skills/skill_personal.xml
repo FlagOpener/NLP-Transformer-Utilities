@@ -1901,4 +1901,14 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Wie könnte ich Dich vergessen? </s>
   </utt>
 </dlg>
-<dlg 
+<dlg lang='en'>
+  <utt>
+    <s> Do you like me? </s>
+    <s> Do you love me? </s>
+  </utt>
+  <utt>
+    <s> I feel as much affection for you as a computer ever could. </s>
+    <s> I relate all my knowledge about love to you. </s>
+  </utt>
+</dlg>
+<d
