@@ -1869,3 +1869,11 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   </utt>
   <utt>
     <s> Excellent! Tell me more about you. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Ich wurde in %(%Saarbrücken%|%Essen%|%Moskau%|%Zürich%|%Stuttgart%|%Berlin%|%Hamburg%|%München%)% geboren. </s>
+  </utt>
+  <utt>
+    <s> Prima - erzähl mir mehr von D
