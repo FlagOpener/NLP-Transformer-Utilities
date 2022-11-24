@@ -1876,4 +1876,17 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Ich wurde in %(%Saarbrücken%|%Essen%|%Moskau%|%Zürich%|%Stuttgart%|%Berlin%|%Hamburg%|%München%)% geboren. </s>
   </utt>
   <utt>
-    <s> Prima - erzähl mir mehr von D
+    <s> Prima - erzähl mir mehr von Dir. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> Do you know me? </s>
+    <s> Do you remember me? </s>
+    <s> Do you know who I am? </s>
+  </utt>
+  <utt>
+    <s> Of course I do. </s>
+    <s> How could I forget you? </s>
+  </utt>
+</dl
