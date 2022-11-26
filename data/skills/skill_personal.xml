@@ -1918,4 +1918,16 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   </utt>
   <utt>
     <s> Ich fühle so viel Zuneigung zu Dir, wie ein Computer nur kann. </s>
-    <s> Ich bringe all mein Wissen über die Liebe mi
+    <s> Ich bringe all mein Wissen über die Liebe mit Dir in Verbindung. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> How old I am. </s>
+    <s> How old am I? </s>
+    <s> I am 16. </s>
+    <s> I am 17. </s>
+    <s> I am 18. </s>
+    <s> I am 19. </s>
+    <s> I am 20. </s>
+    <s> I am 21. 
