@@ -1956,4 +1956,12 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Ist das Alter wirklich so wichtig? </s>
   </utt>
 </dlg>
-<dlg lang=
+<dlg lang='en'>
+  <utt>
+    <s> I am a human. </s>
+    <s> I am a woman. </s>
+    <s> I am %(%happily%|%%)% married. </s>
+    <s> I am female or male. </s>
+    <s> I am %(%female%|%male%)%. </s>
+    <s> I'm a man. </s>
+    <s> I am androgynous. </s
