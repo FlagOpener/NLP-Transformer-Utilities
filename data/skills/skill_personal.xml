@@ -1948,4 +1948,12 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> Wie alt ich bin. </s>
     <s> Wie alt bin ich? </s>
-    <s> Ich bin %(%16%|%17%|%18%|%19%|%20%|%21%|%22%|%23%|%42%|%60%|%75%|%
+    <s> Ich bin %(%16%|%17%|%18%|%19%|%20%|%21%|%22%|%23%|%42%|%60%|%75%|%85%)%. </s>
+    <s> Ich %(%fühle mich%|%bin%)% %(%noch%|%%)% %(%alt%|%jung%)%. </s>
+  </utt>
+  <utt>
+    <s> Das entscheidende ist, wie man sich fühlt. </s>
+    <s> Ist das Alter wirklich so wichtig? </s>
+  </utt>
+</dlg>
+<dlg lang=
