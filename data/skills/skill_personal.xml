@@ -1988,4 +1988,9 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='en'>
   <utt>
-    <s> I get in contact with many %(%people%|%humans%|%men%|%women%|%b
+    <s> I get in contact with many %(%people%|%humans%|%men%|%women%|%boys%|%girls%)%. </s>
+    <s> I have a %(%friend%|%girlfriend%|%boyfriend%)%. </s>
+    <s> I have a %(%little%|%%)% %(%son%|%daughter%|%brother%|%sister%)%. </s>
+  </utt>
+  <utt>
+    <s> Would you consider yourself a social person, then? </s>
