@@ -1964,4 +1964,15 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> I am female or male. </s>
     <s> I am %(%female%|%male%)%. </s>
     <s> I'm a man. </s>
-    <s> I am androgynous. </s
+    <s> I am androgynous. </s>
+  </utt>
+  <utt>
+    <s> Do you feel this is relevant for our conversation? </s>
+    <s> I appreciate your openness. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Ich bin ein Mensch. </s>
+    <s> Ich bin eine Frau. </s>
+    <s> Ich bin %(%
