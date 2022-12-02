@@ -1982,3 +1982,10 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Ich bin androgyn. </s>
   </utt>
   <utt>
+    <s> Denkst Du, das spielt für unser Gespräch eine Rolle? </s>
+    <s> Ich danke für Deine Offenheit. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> I get in contact with many %(%people%|%humans%|%men%|%women%|%b
