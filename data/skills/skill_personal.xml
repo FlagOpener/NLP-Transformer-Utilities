@@ -1975,4 +1975,10 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> Ich bin ein Mensch. </s>
     <s> Ich bin eine Frau. </s>
-    <s> Ich bin %(%
+    <s> Ich bin %(%glücklich%|%%)% verheiratet. </s>
+    <s> Bin ich weiblich oder männlich. </s>
+    <s> Ich bin %(%weiblich%|%männlich%)%. </s>
+    <s> Ich bin ein Mann. </s>
+    <s> Ich bin androgyn. </s>
+  </utt>
+  <utt>
