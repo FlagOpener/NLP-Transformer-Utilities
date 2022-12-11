@@ -2007,4 +2007,20 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   </utt>
   <utt>
     <s> Bist Du ein sozialer Mensch? </s>
-  
+    <s> Ich finde das menschliche Sozialleben faszinierend! </s>
+  </utt>
+</dlg>
+
+<!--
+
+    job
+
+-->
+
+<dlg lang='en'>
+  <utt>
+    <s> I am a programmer. </s>
+    <s> I am a soldier. </s>
+    <s> I am a student. </s>
+    <s> I am a teacher. </s>
+    <s> I am in the mi
