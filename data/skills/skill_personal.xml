@@ -2000,4 +2000,11 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 <dlg lang='de'>
   <utt>
     <s> Ich komme mit vielen %(%Männern%|%Frauen%|%Buben%|%Mädchen%|%Menschen%|%Jungen%)% in Kontakt. </s>
-    <s> Ich habe einen Freund. </s
+    <s> Ich habe einen Freund. </s>
+    <s> Ich habe eine Freundin. </s>
+    <s> Ich habe eine %(%kleine%|%%)% %(%Tochter%|%Schwester%)%. </s>
+    <s> Ich habe einen %(%kleinen%|%%)% %(%Bruder%|%Sohn%)%. </s>
+  </utt>
+  <utt>
+    <s> Bist Du ein sozialer Mensch? </s>
+  
