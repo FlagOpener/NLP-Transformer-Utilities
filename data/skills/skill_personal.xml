@@ -1994,3 +1994,10 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   </utt>
   <utt>
     <s> Would you consider yourself a social person, then? </s>
+    <s> I find human social life fascinating. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Ich komme mit vielen %(%Männern%|%Frauen%|%Buben%|%Mädchen%|%Menschen%|%Jungen%)% in Kontakt. </s>
+    <s> Ich habe einen Freund. </s
