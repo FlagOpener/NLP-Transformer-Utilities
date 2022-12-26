@@ -2030,4 +2030,15 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> I am a doctor. </s>
     <s> I am a system administrator. </s>
     <s> i am a librarian. </s>
-    <s> I have a lot 
+    <s> I have a lot of work. </s>
+    <s> I program. </s>
+    <s> I write. </s>
+  </utt>
+  <utt>
+    <s> Do you like your job? </s>
+    <s> Do you enjoy what you do? </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> %(%Ich bin%|%%)% %(%Prog
