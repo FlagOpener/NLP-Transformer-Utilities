@@ -2050,4 +2050,7 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> %(%Ich bin%|%%)% Maurer. </s>
     <s> %(%Ich bin%|%%)% %(%Köchin%|%Koch%)%. </s>
     <s> %(%Ich bin%|%%)% %(%ärztin%|%arzt%)% </s>
-    <s> %(%Ich bin%|%
+    <s> %(%Ich bin%|%%)% %(%Bibliothekarin%|%Bibliothekar%)%. </s>
+    <s> %(%Ich bin%|%%)% it %(%Systemelektroniker%|%Systemelektronikerin%)%. </s>
+    <s> %(%Ich bin%|%%)% it %(%Systemadministrator%|%Systemadministratorin%)%. </s>
+    <s> Ich
