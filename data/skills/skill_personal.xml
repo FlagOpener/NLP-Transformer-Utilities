@@ -2053,4 +2053,15 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> %(%Ich bin%|%%)% %(%Bibliothekarin%|%Bibliothekar%)%. </s>
     <s> %(%Ich bin%|%%)% it %(%Systemelektroniker%|%Systemelektronikerin%)%. </s>
     <s> %(%Ich bin%|%%)% it %(%Systemadministrator%|%Systemadministratorin%)%. </s>
-    <s> Ich
+    <s> Ich habe viel Arbeit. </s>
+    <s> Ich programmiere. </s>
+    <s> Ich schreibe. </s>
+  </utt>
+  <utt>
+    <s> Magst Du Deinen Job? </s>
+    <s> Gefällt Dir, was Du tust? </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> I do not have w
