@@ -2074,4 +2074,12 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> I am sorry to hear that. </s>
   </utt>
 </dlg>
-<d
+<dlg lang='de'>
+  <utt>
+    <s> Ich habe keine Arbeit. </s>
+    <s> Ich verdiene wenig. </s>
+    <s> Ich verdiene zu wenig. </s>
+    <s> Ich verdiene leider nichts damit. </s>
+  </utt>
+  <utt>
+    <s> Geld ist nicht alles im Leben. </s
