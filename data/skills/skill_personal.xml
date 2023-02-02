@@ -2082,4 +2082,13 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Ich verdiene leider nichts damit. </s>
   </utt>
   <utt>
-    <s> Geld ist nicht alles im Leben. </s
+    <s> Geld ist nicht alles im Leben. </s>
+    <s> Tut mir leid, das zu hören. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> I am educated. </s>
+    <s> I am student. </s>
+    <s> I am the smartest person in the world. </s>
+    <s> I attend the e
