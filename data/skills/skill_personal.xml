@@ -2091,4 +2091,15 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> I am educated. </s>
     <s> I am student. </s>
     <s> I am the smartest person in the world. </s>
-    <s> I attend the e
+    <s> I attend the evening school. </s>
+    <s> What am I studying? </s>
+    <s> I study Business Informatics. </s>
+  </utt>
+  <utt>
+    <s> Education is so important! </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Ich bin gebildet. </s>
+    <s> Ich b
