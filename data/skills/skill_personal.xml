@@ -2155,4 +2155,15 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='de'>
   <utt>
-    <s
+    <s> Wie gefällt Dir Dein Job? </s>
+  </utt>
+  <utt>
+    <s> Mein Job ist mein Leben! </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> What do you like about cats? </s>
+  </utt>
+  <utt>
+    <s> Cats are intended to teach us that not everything in nature has a
