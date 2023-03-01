@@ -2113,3 +2113,30 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   </utt>
 </dlg>
 
+
+
+
+
+
+<!--  -->
+
+
+<!-- 
+
+    misc 
+
+-->
+
+<dlg lang='en'>
+  <utt>
+    <s> Do you want to chat? </s>
+  </utt>
+  <utt>
+    <s> Sure! </s>
+    <s> Always! </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Willst Du chatten? </s>
+  </u
