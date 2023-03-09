@@ -2166,4 +2166,17 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> What do you like about cats? </s>
   </utt>
   <utt>
-    <s> Cats are intended to teach us that not everything in nature has a
+    <s> Cats are intended to teach us that not everything in nature has a purpose. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Was magst Du an Katzen? </s>
+  </utt>
+  <utt>
+    <s> Katzen lehren uns, dass nicht alles in der Natur einen Sinn hat. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> Wha
