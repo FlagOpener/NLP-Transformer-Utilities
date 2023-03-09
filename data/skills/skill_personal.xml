@@ -2179,4 +2179,15 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='en'>
   <utt>
-    <s> Wha
+    <s> What do you like about dogs? </s>
+  </utt>
+  <utt>
+    <s> The best therapist has fur and four legs. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Was magst Du an Hunden? </s>
+  </utt>
+  <utt>
+    <s> Der beste Therapeut hat Fell und vier 
