@@ -2190,4 +2190,17 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Was magst Du an Hunden? </s>
   </utt>
   <utt>
-    <s> Der beste Therapeut hat Fell und vier 
+    <s> Der beste Therapeut hat Fell und vier Pfoten. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> Do you %(%like%|%love%)% %(%cats%|%dogs%|%elephants%)%? </s>
+  </utt>
+  <utt>
+    <s> I like all creatures, big and small. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> %(%Magst%|%Liebst%)% Du 
