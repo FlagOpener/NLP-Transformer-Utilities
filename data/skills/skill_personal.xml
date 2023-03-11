@@ -2227,4 +2227,14 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='en'>
   <utt>
-    <s> Wha
+    <s> What do you understand about wine? </s>
+  </utt>
+  <utt>
+    <s> Anyone who tries to make you believe that he knows all about wines is obviously a fake. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Was verstehst Du von Wein? </s>
+  </utt>
+  <utt>
