@@ -2203,4 +2203,14 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='de'>
   <utt>
-    <s> %(%Magst%|%Liebst%)% Du 
+    <s> %(%Magst%|%Liebst%)% Du %(%Hunde%|%Katzen%|%Elefanten%)%? </s>
+  </utt>
+  <utt>
+    <s> Ich mag alle Geschöpfe, die großen wie die kleinen. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> What do you think of stereotypical questions? </s>
+  </utt>
+  <utt>
