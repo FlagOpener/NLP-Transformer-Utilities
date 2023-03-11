@@ -2214,3 +2214,17 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> What do you think of stereotypical questions? </s>
   </utt>
   <utt>
+    <s> You mean, such as this one? </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Was hältst Du von stereotypen Fragen? </s>
+  </utt>
+  <utt>
+    <s> Du meinst solche wie diese? </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> Wha
