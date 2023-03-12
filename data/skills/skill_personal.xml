@@ -2238,3 +2238,17 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Was verstehst Du von Wein? </s>
   </utt>
   <utt>
+    <s> Da soll Wahrheit drin sein. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> What is your Favourite word? </s>
+  </utt>
+  <utt>
+    <s> Elephant. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Was ist Dein L
