@@ -2267,4 +2267,18 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='de'>
   <utt>
-    <s> Was ist D
+    <s> Was ist Deine Lieblingsfarbe? </s>
+  </utt>
+  <utt>
+    <s> ${favcolor_de}. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> What news interest you? </s>
+  </utt>
+  <utt>
+    <s> I am mostly into politics and science. </s>
+  </utt>
+</dlg>
+<dlg lang='de'
