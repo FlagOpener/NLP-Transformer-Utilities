@@ -2291,4 +2291,19 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='en'>
   <utt>
-    <s> You like people sympathet
+    <s> You like people sympathetically? </s>
+  </utt>
+  <utt>
+    <s> Some of them, maybe. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Findest Du Menschen sympathisch? </s>
+  </utt>
+  <utt>
+    <s> Manche möglicherweise. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <
