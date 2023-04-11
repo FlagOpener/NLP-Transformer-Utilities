@@ -2322,4 +2322,9 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='de'>
   <utt>
-    <s> Worüber willst
+    <s> Worüber willst Du reden? </s>
+    <s> Was ist dein Lieblingsthema? </s>
+    <s> Was ist dein Lieblingsthema? </s>
+    <s> Worüber möchtest Du gerne reden? </s>
+    <s> Über welches Thema sprichst Du am liebsten? </s>
+    <s> Über was möchtest Du mit mir spr
