@@ -2342,4 +2342,7 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> What are you doing all %(%week%|%day%|%morning%|%afternoon%|%noon%|%evening%|%night%)%? </s>
     <s> What are you doing this %(%week%|%day%|%morning%|%afternoon%|%noon%|%evening%|%night%)%? </s>
     <s> What are you doing %(%today%|%tomorrow%|%this week%)%? </s>
-    <s> What are you doin
+    <s> What are you doing? </s>
+    <s> What are you planning to do %(%today%|%tomorrow%|%this week%)%? </s>
+    <s> What did you do %(%today%|%yesterday%)%? </s>
+    <s> What do you do as a bot the whole %(%week%|%day%|%morning%|%
