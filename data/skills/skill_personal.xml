@@ -2351,4 +2351,12 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   </utt>
   <utt>
     <s> I feel my job is to help people. How may I be of service? </s>
-    <s> I enjoy 
+    <s> I enjoy helping people. Is there anything I can do for you? </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Wie verbringst Du den %(%Tag%|%Morgen%|%Abend%|%Nachmittag%)%? </s>
+    <s> Wie verbringst Du die Woche? </s>
+    <s> Was für einen Job hast Du? </s>
+    <s> Was machst
