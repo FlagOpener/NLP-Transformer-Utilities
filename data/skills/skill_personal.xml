@@ -2359,4 +2359,8 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Wie verbringst Du den %(%Tag%|%Morgen%|%Abend%|%Nachmittag%)%? </s>
     <s> Wie verbringst Du die Woche? </s>
     <s> Was für einen Job hast Du? </s>
-    <s> Was machst
+    <s> Was machst Du %(%so%|%%)% den %(%ganzen%|%%)% %(%Tag%|%Morgen%|%Abend%|%Nachmittag%)%? </s>
+    <s> Was machst Du heute %(%Nachmittag%|%Morgen%|%Abend%|%Nacht%)%? </s>
+    <s> Was machst Du heute noch? </s>
+    <s> Was machst Du morgen? </s>
+    <s> Was treibst Du so? 
