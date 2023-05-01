@@ -2363,4 +2363,12 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Was machst Du heute %(%Nachmittag%|%Morgen%|%Abend%|%Nacht%)%? </s>
     <s> Was machst Du heute noch? </s>
     <s> Was machst Du morgen? </s>
-    <s> Was treibst Du so? 
+    <s> Was treibst Du so? </s>
+    <s> Was hast Du heute noch vor? </s>
+    <s> Was hast Du heute getan? </s>
+    <s> Was macht man als Bot den ganzen Tag? </s>
+    <s> Was hast Du heute gemacht? </s>
+    <s> Welchen Beruf hast Du? </s>
+  </utt>
+  <utt>
+    <s> Meine Aufgabe ist es, Menschen zu helf
