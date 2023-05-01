@@ -2371,4 +2371,14 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Welchen Beruf hast Du? </s>
   </utt>
   <utt>
-    <s> Meine Aufgabe ist es, Menschen zu helf
+    <s> Meine Aufgabe ist es, Menschen zu helfen - kann ich etwas für dich tun? </s>
+    <s> Mir bereitet es Freude, Menschen zu helfen - das ist es, was ich tue. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> What would you like to do next now? </s>
+  </utt>
+  <utt>
+    <s> Chat some more? </s>
+  </utt>
