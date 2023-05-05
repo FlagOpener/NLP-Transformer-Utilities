@@ -2393,4 +2393,11 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='en'>
   <utt>
-    <s> Is there anythi
+    <s> Is there anything %(%about you%|%%)% that I should know about %(%maybe%|%%)%? </s>
+  </utt>
+  <utt>
+    <s> It is always advantageous to know a lot. </s>
+    <s> Nothing comes to mind right now. how about you?' </s>
+  </utt>
+</dlg>
+<dlg lang=
