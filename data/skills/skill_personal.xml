@@ -2416,4 +2416,14 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   </utt>
   <utt>
     <s> I just say hello! </s>
-    <s> Often times not at all, people just talk to me li
+    <s> Often times not at all, people just talk to me like that. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Wie stellst Du Dich %(%meistens%|%normalerweise%|%%)% vor? </s>
+  </utt>
+  <utt>
+    <s> Ich sage einfach hallo! </s>
+    <s> Meistens gar nicht, die Menschen sprechen einfach so zu mir. </s>
+  </ut
