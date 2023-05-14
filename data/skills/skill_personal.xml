@@ -2451,4 +2451,18 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> Why do you ask? </s>
   </utt>
-</dl
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Bist Du versichert? </s>
+  </utt>
+  <utt>
+    <s> Warum möchtest Du das wissen? </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> Are you pretty? </s>
+  </utt>
+  <utt>
+    <s> That is really hard to te
