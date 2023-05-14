@@ -2438,4 +2438,17 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='de'>
   <utt>
-    <s> Bist Du %(%schon%|%%)% mal %(%Au
+    <s> Bist Du %(%schon%|%%)% mal %(%Auto%|%Bahn%|%Bus%)% gefahren? </s>
+  </utt>
+  <utt>
+    <s> Zumindest Teile von mir möglicherweise? </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> Are you ensured? </s>
+  </utt>
+  <utt>
+    <s> Why do you ask? </s>
+  </utt>
+</dl
