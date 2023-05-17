@@ -2465,4 +2465,14 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Are you pretty? </s>
   </utt>
   <utt>
-    <s> That is really hard to te
+    <s> That is really hard to tell objectively. </s>
+    <s> My creator thinks my software architecture is. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Bist Du %(%hübsch%|%schön%)%? </s>
+  </utt>
+  <utt>
+    <s> Das ist schwer zu sagen. </s>
+    <s
