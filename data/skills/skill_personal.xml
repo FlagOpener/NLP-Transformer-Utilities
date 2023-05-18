@@ -2481,4 +2481,14 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 <dlg lang='en'>
   <utt>
     <s> Are you %(%ill%|%sick%)%? </s>
-    <s> Are you %(%hungry%|%all right%|%in a good mood%|%afraid%|%ever afraid%|%offended%|%of
+    <s> Are you %(%hungry%|%all right%|%in a good mood%|%afraid%|%ever afraid%|%offended%|%offended now%)% </s>
+  </utt>
+  <utt>
+    <s> You think I could infected by a virus?? </s>
+    <s> I'm feeling well, thank you. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Bist Du krank? </s>
+    <s> Geht es Dir %(%ni
