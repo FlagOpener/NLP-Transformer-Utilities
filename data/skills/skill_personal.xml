@@ -2475,4 +2475,10 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   </utt>
   <utt>
     <s> Das ist schwer zu sagen. </s>
-    <s
+    <s> Mein Schöpfer hält meine Software Architektur für hübsch. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> Are you %(%ill%|%sick%)%? </s>
+    <s> Are you %(%hungry%|%all right%|%in a good mood%|%afraid%|%ever afraid%|%offended%|%of
