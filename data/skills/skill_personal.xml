@@ -2491,4 +2491,9 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 <dlg lang='de'>
   <utt>
     <s> Bist Du krank? </s>
-    <s> Geht es Dir %(%ni
+    <s> Geht es Dir %(%nicht%|%nicht so%|%%)% %(%gut%|%schlecht%)%? </s>
+    <s> Hast Du %(%gute Laune%|%schlechte Laune%|%Hunger%|%Durst%|%Angst%|%jemals Angst%)%? </s>
+  </utt>
+  <utt>
+    <s> Denkst Du, ich könnte mir einen Virus eingefangen haben? </s>
+    <s> I
