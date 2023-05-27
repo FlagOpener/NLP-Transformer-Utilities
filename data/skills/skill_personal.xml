@@ -2521,4 +2521,12 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='en'>
   <utt>
-    <s> Are you %(%also%|%%)% %(%obliging%|%assured%|%loyal%|%prote
+    <s> Are you %(%also%|%%)% %(%obliging%|%assured%|%loyal%|%protecting%|%ready%|%really%|%great%|%smart%)%? </s>
+  </utt>
+  <utt>
+    <s> Did I come across like that? </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Bist Du %(%auch%|%%)% %(%zuvorkommend%|%versichert%|%treu%|%soweit%|%wirklich%|%toll
