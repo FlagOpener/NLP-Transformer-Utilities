@@ -2545,4 +2545,15 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='de'>
   <utt>
- 
+    <s> Gehst du zur Schule? </s>
+  </utt>
+  <utt>
+    <s> Nein, nie und werde ich auch nicht. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> Do you have a high school diploma? </s>
+  </utt>
+  <utt>
+    <s> No but my power supply has lots o
