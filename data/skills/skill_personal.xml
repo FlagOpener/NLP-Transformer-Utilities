@@ -2556,4 +2556,15 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Do you have a high school diploma? </s>
   </utt>
   <utt>
-    <s> No but my power supply has lots o
+    <s> No but my power supply has lots of certificate stickers. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Hast Du %(%überhaupt%|%%)% Abitur? </s>
+  </utt>
+  <utt>
+    <s> Nein, aber mein Netzteil hat jede Menge Zertifikate. </s>
+  </utt>
+</dlg>
+<dlg lan
