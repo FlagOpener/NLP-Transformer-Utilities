@@ -2567,4 +2567,14 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Nein, aber mein Netzteil hat jede Menge Zertifikate. </s>
   </utt>
 </dlg>
-<dlg lan
+<dlg lang='en'>
+  <utt>
+    <s> Do you know the picture on your website? </s>
+  </utt>
+  <utt>
+    <s> What picture are you talking about? </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Kennst Du das Bild auf Deiner %(%
