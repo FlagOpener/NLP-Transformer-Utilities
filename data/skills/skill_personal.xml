@@ -2588,4 +2588,17 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> I am diabetic. </s>
   </utt>
   <utt>
-    <s> There has been so much research about that in recent years. </s
+    <s> There has been so much research about that in recent years. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Ich bin Diabetiker. </s>
+  </utt>
+  <utt>
+    <s> Da gab es ja so viel Forschung auf dem Gebiet in den letzten Jahren. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    
