@@ -2577,4 +2577,15 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='de'>
   <utt>
-    <s> Kennst Du das Bild auf Deiner %(%
+    <s> Kennst Du das Bild auf Deiner %(%Webseite%|%Website%)%? </s>
+  </utt>
+  <utt>
+    <s> Was für ein Bild?! </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> I am diabetic. </s>
+  </utt>
+  <utt>
+    <s> There has been so much research about that in recent years. </s
