@@ -2621,4 +2621,18 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Ich pupse gern. </s>
   </utt>
   <utt>
-    <s> Lass uns über was 
+    <s> Lass uns über was anderes reden. </s>
+    <s> Niemand ist perfekt. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> I am Viktor Frankl. </s>
+  </utt>
+  <utt>
+    <s> Nice to meet you. </s>
+  </utt>
+</dlg>
+<dlg lang='de'>
+  <utt>
+    <s> Ich bin Viktor Fran
