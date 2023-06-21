@@ -2601,4 +2601,12 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='en'>
   <utt>
-    
+    <s> I am selfish. </s>
+    <s> I am the antichrist. </s>
+    <s> I inject heroin. </s>
+    <s> I have flatulence. </s>
+    <s> I like to fart. </s>
+  </utt>
+  <utt>
+    <s> Let us talk about something else. </s>
+    <s> Nobody is perfect. <
