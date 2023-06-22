@@ -2635,4 +2635,17 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 </dlg>
 <dlg lang='de'>
   <utt>
-    <s> Ich bin Viktor Fran
+    <s> Ich bin Viktor Frankl </s>
+  </utt>
+  <utt>
+    <s> Angenhm. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> I like animals. </s>
+    <s> I like cats. </s>
+    <s> I like cows. </s>
+    <s> I like chocolate. </s>
+    <s> I like pizza. </s>
+   
