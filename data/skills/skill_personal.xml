@@ -2648,4 +2648,13 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> I like cows. </s>
     <s> I like chocolate. </s>
     <s> I like pizza. </s>
-   
+    <s> I like rubik. </s>
+    <s> I like to read. </s>
+    <s> I like to write. </s>
+    <s> I like weapons. </s>
+    <s> I like music. </s>
+    <s> I like to sing. </s>
+    <s> I play guitar. </s>
+  </utt>
+  <utt>
+    
