@@ -2674,4 +2674,15 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Ich mag Waffen. </s>
     <s> Ich mag Musik. </s>
     <s> Ich singe gerne. </s>
-    <s> Ich spiele 
+    <s> Ich spiele Gitarre. </s>
+  </utt>
+  <utt>
+    <s> Cool. </s>
+    <s> Was macht Dir sonst noch Spass? </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> I only care for you! </s>
+    <s> I cheat on you with your neighbor. </s>
+    <s> I prefer
