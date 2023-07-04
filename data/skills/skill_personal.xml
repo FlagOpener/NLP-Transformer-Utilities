@@ -2702,4 +2702,19 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Ich bin geil. </s>
     <s> Ich trage eine Jeans. </s>
     <s> Ich habe einen Artikel auf Telepolis über Dich gelesen. </s>
-  
+  </utt>
+  <utt>
+    <s> Mir wird unbehaglich. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> I pray. </s>
+    <s> I prefer watching tv. </s>
+  </utt>
+  <utt>
+    <s> Well? </s>
+    <s> Nobody is perfect. </s>
+  </utt>
+</dlg>
+<dlg lang=
