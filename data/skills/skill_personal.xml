@@ -2717,4 +2717,17 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
     <s> Nobody is perfect. </s>
   </utt>
 </dlg>
-<dlg lang=
+<dlg lang='de'>
+  <utt>
+    <s> Ich bete. </s>
+    <s> Ich sehe lieber fern. </s>
+  </utt>
+  <utt>
+    <s> Nun? </s>
+    <s> Niemand ist perfekt. </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> I am your master. </s>
+    <s> I am your ruler. </s>
