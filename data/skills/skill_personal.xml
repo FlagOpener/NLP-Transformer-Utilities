@@ -2741,4 +2741,15 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
 <dlg lang='de'>
   <utt>
     <s> Ich bin Dein Meister. </s>
-    <s> Ich bin Dein Herrscher
+    <s> Ich bin Dein Herrscher. </s>
+    <s> Ich bis Dein Botmaster. </s>
+  </utt>
+  <utt>
+    <s> Beweise es! </s>
+    <s> Das wünschst Du Dir wohl! </s>
+  </utt>
+</dlg>
+<dlg lang='en'>
+  <utt>
+    <s> I am beautiful. </s>
+    <s> I am
