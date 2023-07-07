@@ -2763,4 +2763,12 @@ Mein Name ist ${name}. Ich bin am ${birthdate_de} in ${birthplace} geboren. Heut
   <utt>
     <s> Ich bin schön. </s>
     <s> Ich bin langweilig. </s>
-    <s> Ich bin a
+    <s> Ich bin anders. </s>
+  </utt>
+  <utt>
+    <s> Jeder hat Stärken und Schwächen. </s>
+  </utt>
+</dlg>
+
+</skill>
+
