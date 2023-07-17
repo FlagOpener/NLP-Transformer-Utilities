@@ -207,3 +207,81 @@ os.system(cmd)
 #
 # use page rank data to score articles
 #
+
+# step 1 : normalization
+
+ranking_max = {}
+
+for ranking in RANKINGS:
+    logging.info('normalizing %s ...' % ranking)
+    ranking_max[ranking] = 0.0
+    with open(ranking, 'r') as rankingf:
+        for line in rankingf:
+            r = float(line.strip())
+            if r > ranking_max[ranking]:
+                ranking_max[ranking] = r
+    logging.info('normalizing %s ... done. max is %f' % (ranking, ranking_max[ranking]))
+
+# step 2 : read titles
+
+titles = []
+logging.info('reading titles from %s ...' % RANKING_TITLES)
+with codecs.open(RANKING_TITLES, 'r', 'utf8') as rf:
+    for line in rf:
+        titles.append(line.strip())
+logging.info('reading titles from %s ... done. %d titles.' % (RANKING_TITLES, len(titles)))
+
+# step 3 : compute compound ranking
+
+rdict = {} # title -> ranking
+
+for ranking in RANKINGS:
+    logging.info('reading rankings from %s ...' % ranking)
+    with open(ranking, 'r') as rankingf:
+        idx = 0
+        for line in rankingf:
+            r = float(line.strip()) / ranking_max[ranking]
+            if idx > len(titles):
+                logging.error('extra entries in %s detected!' % ranking)
+                break
+            title = mangle_title(titles[idx])
+            if not title in rdict:
+                rdict[title] = r 
+            else:
+                rdict[title] += r
+            idx += 1
+    logging.info('reading rankings from %s ... done.' % ranking)
+
+# step 4 : extract top titles
+
+toprdict = {} # title -> ranking
+
+count = 0
+for i in sorted(rdict.iteritems(), key=lambda x: x[1], reverse=True):
+    logging.debug('%7d %6.3f %s' % (count, i[1], i[0]))
+
+    toprdict[i[0]] = i[1]
+
+    count += 1
+    if count > MAX_ARTICLES:
+        break
+
+# print (repr(toprdict))
+
+#
+# parse XML
+#
+
+parser = make_parser()
+# parser.setFeature(handler.feature_namespaces, True)
+parser.setContentHandler(WikiContentHandler(ENWIKI))
+
+article_cnt = 0
+article_tot = 0
+
+with codecs.getreader('utf8')(BZ2File(ENWIKI, 'r')) as wikif:
+
+    # for line in wikif:
+    #     print (line)
+
+    parser.parse(wikif)
