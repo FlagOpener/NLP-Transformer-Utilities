@@ -123,3 +123,35 @@ def chunks(l, n):
 
 with tf.Session() as session:
     session.run([tf.global_variables_initializer(), tf.tables_initializer()])
+
+    for job in chunks(jobs, BATCH_SIZE):
+
+        datas=[]
+        messages = []
+        all_done = True
+        for f in job:
+            txtfn = '%s/%s.json' % (TXT_DIR % corpus, f)
+            with open(txtfn) as txtf:
+                data = json.loads(txtf.read())
+                messages.append(data['txt'])
+                datas.append(data)
+            embfn = EMB_FN % (corpus, f)
+            if not os.path.exists(embfn):
+                all_done = False
+
+        if all_done:
+            continue
+
+        embeddings = session.run(use_embed(messages))
+
+        for i, f in enumerate(job):
+            
+            datas[i]['emb'] = embeddings[i].tolist()
+            datas[i]['score'] = int(datas[i]['rating'] * options.scoref)
+
+            embfn = EMB_FN % (corpus, f)         
+            with open(embfn, 'w') as embf:
+                embf.write(json.dumps(datas[i]))
+
+            logging.info ('%7d %4d %s -> %s written.' % (cnt, datas[i]['score'], datas[i]['title'], embfn))
+            cnt += 1
