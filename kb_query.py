@@ -46,3 +46,64 @@ INDEX_FN          = 'data/kb/%s/idx.ann'
 #
 # init
 #
+
+misc.init_app(PROC_TITLE)
+
+#
+# commandline
+#
+
+parser = OptionParser("usage: %prog [options] corpus")
+
+parser.add_option ("-v", "--verbose", action="store_true", dest="verbose",
+                   help="verbose output")
+
+(options, args) = parser.parse_args()
+
+if options.verbose:
+    logging.basicConfig(level=logging.DEBUG)
+else:
+    logging.basicConfig(level=logging.INFO)
+
+if len(args) != 1:
+    parser.print_help()
+    sys.exit(1)
+
+corpus = args[0]
+
+#
+# build index
+#
+
+logging.info('building index for %s' % (EMB_DIR % corpus))
+
+aidx = AnnoyIndex(DIMENSIONS)  
+for f in os.listdir(EMB_DIR % corpus):
+
+    logging.debug('indexing %s' % f)
+
+    with open('%s/%s' % (EMB_DIR % corpus, f)) as embf:
+        data = json.loads(embf.read())
+        # print(repr(data))
+
+        i = int(f.replace('.json',''))
+
+        aidx.add_item(i, data['emb'])
+
+
+# for i in xrange(1000):
+#     v = [random.gauss(0, 1) for z in xrange(f)]
+
+logging.info('building %d trees' % NUM_TREES)
+aidx.build(NUM_TREES) 
+
+aidx.save(INDEX_FN % corpus)
+logging.debug('%s written.' % (INDEX_FN % corpus))
+
+# # test index
+# 
+# u = AnnoyIndex(f)
+# u.load(INDEX_FN) # super fast, will just mmap the file
+# print(u.get_nns_by_item(0, 1000)) # will find the 1000 nearest neighbors
+
+
