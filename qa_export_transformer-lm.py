@@ -178,3 +178,17 @@ for datasrcfn in ls_files:
             secname = 'valid'
         else:
             secname = 'train'
+
+        outfn = '%s/%s/%s/%08d.txt' % (TLM_DIRFN, output_corpus_name, secname, fncnt)
+        with open(outfn, 'w') as outf:
+            outf.write(txt)
+
+        logging.info ('%7d/%7d %s written. %s' % (fncnt, len(ls_files), outfn, txt[:30].replace('\n', ' ')))
+
+    except:
+        logging.exception('exception caught %s' % repr(data))
+
+
+if options.verbose:
+    for c in sorted(unknown_chars):
+        print("    %s : '', # %s" % (repr(c), c))
