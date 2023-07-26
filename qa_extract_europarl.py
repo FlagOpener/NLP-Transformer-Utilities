@@ -90,3 +90,37 @@ def europarl_crawl(path, debug_sgm_limit):
         if os.path.isdir(p):
             num_files += europarl_crawl(p, debug_sgm_limit)
             continue
+
+        if not p.endswith('.xml'):
+            continue
+
+        logging.info("%8d: found xml: %s" % (num_files, p))
+        num_files += 1
+
+        tree = ET.parse(p)
+
+        root = tree.getroot()
+        for chapter in root.findall('CHAPTER'):
+            for speaker in chapter.findall('SPEAKER'):
+                logging.info('speaker.')
+                text = ''
+                for p in speaker.findall('P'):
+                    for s in p.findall('s'):
+                        if text:
+                            text += '\n'
+                        text += s.text
+                # logging.info(text)
+                ds = {'info': text, 'dlg': []}
+
+                outjsonfn = '%s/europarl/%08d.json' % (QASRC_DIRFN, cnt)
+                cnt += 1
+
+                with open(outjsonfn, 'w') as outjsonf:
+                    outjsonf.write(json.dumps(ds))
+
+                logging.info ('%s written. %s' % (outjsonfn, text.replace('\n', ' ').strip()[:100]))
+
+    return num_files
+
+europarl_crawl(EUROPARL_CORPUSDIR, 0)
+
