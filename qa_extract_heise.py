@@ -33,4 +33,23 @@ from nltools         import misc
 
 PROC_TITLE        = 'qa_extract_heise'
 
-HEISE_CORPUSDIR   = '/home/bofh/projects/ai/data/corpora/de/he
+HEISE_CORPUSDIR   = '/home/bofh/projects/ai/data/corpora/de/heise_news'
+
+QASRC_DIRFN       = 'data/qa_src'
+
+# DEBUG_LIMIT       = 10
+DEBUG_LIMIT       = 0
+
+#
+# init
+#
+
+misc.init_app(PROC_TITLE)
+
+#
+# commandline
+#
+
+parser = OptionParser("usage: %prog [options]")
+
+parser.add_option ("-v", "--verbo
