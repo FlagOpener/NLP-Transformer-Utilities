@@ -23,3 +23,14 @@ import sys
 import codecs
 import time
 import json
+import logging
+import hashlib
+import tqdm
+import random
+
+from optparse        import OptionParser
+from nltools         import misc
+
+PROC_TITLE        = 'qa_extract_heise'
+
+HEISE_CORPUSDIR   = '/home/bofh/projects/ai/data/corpora/de/he
