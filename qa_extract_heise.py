@@ -78,4 +78,12 @@ ls_files = []
 
 for ls_a in os.listdir(HEISE_CORPUSDIR):
 
-    if not ls_a.e
+    if not ls_a.endswith('.json'):
+        continue
+
+    ls_files.append('%s/%s' % (HEISE_CORPUSDIR, ls_a))
+
+    if len(ls_files) % 100 == 0:
+        logging.info ('%7d files...' % len(ls_files))
+
+    if DEBUG_LIMIT and (len(ls_files)>=DEBUG_LI
