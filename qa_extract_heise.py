@@ -86,4 +86,19 @@ for ls_a in os.listdir(HEISE_CORPUSDIR):
     if len(ls_files) % 100 == 0:
         logging.info ('%7d files...' % len(ls_files))
 
-    if DEBUG_LIMIT and (len(ls_files)>=DEBUG_LI
+    if DEBUG_LIMIT and (len(ls_files)>=DEBUG_LIMIT):
+        logging.warning('DEBUG_LIMIT reached at %d files.' % len(ls_files))
+        break
+
+logging.info('found %d files.' % len(ls_files))
+
+#
+# convert tweets
+#
+
+cnt = 0
+for jsonfn in ls_files:
+
+    logging.info('%s...' % jsonfn)
+
+    with open(jsonfn, 'r') as jso
