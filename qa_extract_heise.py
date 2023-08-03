@@ -60,4 +60,22 @@ parser.add_option ("-v", "--verbose", action="store_true", dest="verbose",
 if options.verbose:
     logging.getLogger().setLevel(logging.DEBUG)
 else:
-    logging.getLogger().setLevel
+    logging.getLogger().setLevel(logging.INFO)
+
+#
+# cleanup / preparation
+#
+ 
+cmd = 'mkdir -p %s/heise' % QASRC_DIRFN
+logging.info(cmd)
+os.system(cmd)
+
+#
+# find files
+#
+
+ls_files = []
+
+for ls_a in os.listdir(HEISE_CORPUSDIR):
+
+    if not ls_a.e
