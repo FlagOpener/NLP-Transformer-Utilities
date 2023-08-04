@@ -114,4 +114,5 @@ for jsonfn in ls_files:
             with open(outjsonfn, 'w') as outjsonf:
                 outjsonf.write(json.dumps(ds))
 
-            logging.debug ('%-20s: %s written
+            logging.debug ('%-20s: %s written. %s' % (article['author'], outjsonfn, article['headline'][:100]))
+
