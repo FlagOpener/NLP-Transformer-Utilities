@@ -172,3 +172,10 @@ def parole_crawl(path, debug_sgm_limit):
                 sgmldata = inf.read(1024)
                 if not sgmldata:
                     break
+                pp.feed(sgmldata)
+
+        pp.close()
+
+    return num_files
+
+parole_crawl(PAROLE_CORPUSDIR, 0)
