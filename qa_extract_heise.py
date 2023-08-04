@@ -101,4 +101,10 @@ for jsonfn in ls_files:
 
     logging.info('%s...' % jsonfn)
 
-    with open(jsonfn, 'r') as jso
+    with open(jsonfn, 'r') as jsonf:
+        data = json.loads(jsonf.read())
+
+        for article in data:
+            
+            ds = {'info': article['headline'] + '\n' + article['text'], 'date': article['timestamp'], 'dlg': []}
+
