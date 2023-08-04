@@ -108,3 +108,10 @@ for jsonfn in ls_files:
             
             ds = {'info': article['headline'] + '\n' + article['text'], 'date': article['timestamp'], 'dlg': []}
 
+            outjsonfn = '%s/heise/%08d.json' % (QASRC_DIRFN, cnt)
+            cnt += 1
+
+            with open(outjsonfn, 'w') as outjsonf:
+                outjsonf.write(json.dumps(ds))
+
+            logging.debug ('%-20s: %s written
