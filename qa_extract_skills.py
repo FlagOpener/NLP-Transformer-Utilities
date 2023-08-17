@@ -20,4 +20,19 @@
 
 import os
 import sys
-import r
+import re
+import codecs
+import time
+import json
+import logging
+import datetime
+import xml.etree.ElementTree as ET
+
+from copy import copy
+from optparse import OptionParser
+from mako.template import Template
+
+
+from nltools  import misc
+
+PROC_TITL
