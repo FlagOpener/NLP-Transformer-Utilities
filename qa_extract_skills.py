@@ -35,4 +35,21 @@ from mako.template import Template
 
 from nltools  import misc
 
-PROC_TITL
+PROC_TITLE        = 'qa_extract_skills'
+
+QASRC_DIRFN       = 'data/qa_src'
+
+# DEBUG_LIMIT       = 10
+DEBUG_LIMIT       = 0
+
+#
+# init
+#
+
+misc.init_app(PROC_TITLE)
+
+#
+# commandline
+#
+
+parser = OptionParser("usage: %prog [options] corpus skill1.xml [skill2.xm
