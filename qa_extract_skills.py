@@ -52,4 +52,9 @@ misc.init_app(PROC_TITLE)
 # commandline
 #
 
-parser = OptionParser("usage: %prog [options] corpus skill1.xml [skill2.xm
+parser = OptionParser("usage: %prog [options] corpus skill1.xml [skill2.xml ...]")
+
+parser.add_option ("-l", "--lang", dest="lang", type = "str", default='en',
+                   help="language (default: en)")
+
+parser.add_option ("-v", "--verbose", action="store_true", dest="verbose",
