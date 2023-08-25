@@ -58,3 +58,14 @@ parser.add_option ("-l", "--lang", dest="lang", type = "str", default='en',
                    help="language (default: en)")
 
 parser.add_option ("-v", "--verbose", action="store_true", dest="verbose",
+                   help="verbose output")
+
+(options, args) = parser.parse_args()
+
+if options.verbose:
+    logging.getLogger().setLevel(logging.DEBUG)
+else:
+    logging.getLogger().setLevel(logging.INFO)
+
+if len(args)<2:
+    parser.pr
