@@ -68,4 +68,18 @@ else:
     logging.getLogger().setLevel(logging.INFO)
 
 if len(args)<2:
-    parser.pr
+    parser.print_usage()
+    sys.exit(1)
+
+corpus_name = args[0]
+skillfns = args[1:]
+
+#
+# cleanup / preparation
+#
+ 
+cmd = 'rm -rf %s/%s' % (QASRC_DIRFN, corpus_name)
+logging.info(cmd)
+os.system(cmd)
+
+cmd = 'mkdir -p %s/%s' % (
