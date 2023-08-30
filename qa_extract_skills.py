@@ -98,4 +98,14 @@ def expand_choices(src):
     srcl = []
 
     i = 0
-    while i < len(src
+    while i < len(src):
+
+        choices_start = src[i:].find('%(%')
+        if choices_start<0:         # no further choice switch -> finish
+            srcl.append(src[i:])
+            break
+        else:
+
+            choices_start += i
+
+            if cho
