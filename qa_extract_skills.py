@@ -82,4 +82,20 @@ cmd = 'rm -rf %s/%s' % (QASRC_DIRFN, corpus_name)
 logging.info(cmd)
 os.system(cmd)
 
-cmd = 'mkdir -p %s/%s' % (
+cmd = 'mkdir -p %s/%s' % (QASRC_DIRFN, corpus_name)
+logging.info(cmd)
+os.system(cmd)
+
+#
+# extract skills
+#
+
+    
+def expand_choices(src):
+
+    # turn choice switches %(% ... %|% ... %)%  into python lists
+
+    srcl = []
+
+    i = 0
+    while i < len(src
