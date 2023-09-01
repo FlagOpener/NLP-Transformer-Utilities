@@ -108,4 +108,8 @@ def expand_choices(src):
 
             choices_start += i
 
-            if cho
+            if choices_start>0:
+                srcl.append(src[i:choices_start]) # append text before choice switch
+            choices_end = src[choices_start+3:].find('%)%')
+            if choices_end < 0:
+                logging.error ('
