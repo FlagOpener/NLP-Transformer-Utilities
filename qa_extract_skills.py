@@ -112,4 +112,11 @@ def expand_choices(src):
                 srcl.append(src[i:choices_start]) # append text before choice switch
             choices_end = src[choices_start+3:].find('%)%')
             if choices_end < 0:
-                logging.error ('
+                logging.error ('%)% missing')
+                break
+            choices_end += choices_start+3
+
+            choices = src[choices_start+3:choices_end]
+            # logging.debug('%4d: [%d:%d] choices: %s', i, choices_start, choices_end, choices)
+
+            srcl.
