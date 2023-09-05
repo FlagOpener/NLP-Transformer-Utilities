@@ -132,4 +132,14 @@ def expand_choices(src):
         prefix, l = todo.pop()
 
         if not l:
-            done.appe
+            done.append(prefix)
+            continue
+
+        item = l[0]
+        if isinstance(item, str):
+            todo.append((prefix + item, l[1:]))
+        else:
+            for s in item:
+                todo.append((prefix + s, l[1:]))
+            
+    retu
