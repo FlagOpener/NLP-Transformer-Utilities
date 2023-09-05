@@ -119,4 +119,17 @@ def expand_choices(src):
             choices = src[choices_start+3:choices_end]
             # logging.debug('%4d: [%d:%d] choices: %s', i, choices_start, choices_end, choices)
 
-            srcl.
+            srcl.append(choices.split('%|%'))
+
+            i = choices_end + 3
+
+    # expand choices
+
+    todo = [('', srcl)]
+    done = []
+
+    while todo:
+        prefix, l = todo.pop()
+
+        if not l:
+            done.appe
