@@ -142,4 +142,15 @@ def expand_choices(src):
             for s in item:
                 todo.append((prefix + s, l[1:]))
             
-    retu
+    return done
+
+cnt = 0
+for skillfn in skillfns:
+
+    skillxml = Template(filename=skillfn)
+
+    # expand mako macros
+    root = ET.fromstring(skillxml.render())
+
+    for node in root.findall('./info[@lang=\'%s\']' % options.lang):
+        infotxt = no
