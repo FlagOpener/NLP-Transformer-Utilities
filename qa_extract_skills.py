@@ -171,3 +171,16 @@ for skillfn in skillfns:
             dlgl.append(sl)
         
         todo = [([], dlgl)]
+
+        while todo:
+
+            prefix, l = todo.pop()
+
+            if not l:
+                # print(prefix)
+
+                cnt += 1
+
+                jsonfn = '%s/%s/%08d.json' % (QASRC_DIRFN, corpus_name, cnt)
+
+               
