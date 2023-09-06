@@ -163,4 +163,11 @@ for skillfn in skillfns:
 
         dlgl = []
 
-        for utt in dlg.findall('utt
+        for utt in dlg.findall('utt'):
+            sl = []
+            for s in utt.findall('s'):
+                for t in expand_choices(s.text):
+                    sl.append(t.strip())
+            dlgl.append(sl)
+        
+        todo = [([], dlgl)]
