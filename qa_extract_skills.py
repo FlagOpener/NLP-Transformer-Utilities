@@ -153,4 +153,14 @@ for skillfn in skillfns:
     root = ET.fromstring(skillxml.render())
 
     for node in root.findall('./info[@lang=\'%s\']' % options.lang):
-        infotxt = no
+        infotxt = node.text.strip()
+
+    for dlg in root.findall('./dlg[@lang=\'%s\']' % options.lang):
+
+        logging.debug ('dlg found: %s' % dlg)
+
+        # expand all possible dialog flows
+
+        dlgl = []
+
+        for utt in dlg.findall('utt
