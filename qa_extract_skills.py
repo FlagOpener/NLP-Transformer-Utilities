@@ -183,4 +183,9 @@ for skillfn in skillfns:
 
                 jsonfn = '%s/%s/%08d.json' % (QASRC_DIRFN, corpus_name, cnt)
 
-               
+                ds = {'info': infotxt, 'date': datetime.datetime.now().isoformat(), 'dlg': prefix}
+
+                with open(jsonfn, 'w') as jsonf:
+                    jsonf.write(json.dumps(ds))
+
+                logging
