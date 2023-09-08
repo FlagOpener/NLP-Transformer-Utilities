@@ -188,4 +188,11 @@ for skillfn in skillfns:
                 with open(jsonfn, 'w') as jsonf:
                     jsonf.write(json.dumps(ds))
 
-                logging
+                logging.info ('%s written. %s' % (jsonfn, repr(prefix)[:80]))
+
+                continue
+
+            n = l[0]
+            for s in n:
+                todo.append((prefix + [re.sub('\s+', ' ', s).strip()], l[1:]))
+
