@@ -13,4 +13,20 @@
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the Lic
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+#
+
+import os
+import sys
+import codecs
+import time
+import json
+import logging
+import hashlib
+import tqdm
+import random
+
+import newspaper
+from newspaper       i
