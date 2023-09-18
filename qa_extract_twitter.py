@@ -29,4 +29,11 @@ import tqdm
 import random
 
 import newspaper
-from newspaper       i
+from newspaper       import Article
+from multiprocessing import Pool
+from optparse        import OptionParser
+from nltools         import misc
+
+PROC_TITLE        = 'qa_extract_twitter'
+
+TWITTER_CORPUSDIR = '/home/bofh/projects/ai/data/
