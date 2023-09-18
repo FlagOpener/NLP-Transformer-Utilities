@@ -36,4 +36,15 @@ from nltools         import misc
 
 PROC_TITLE        = 'qa_extract_twitter'
 
-TWITTER_CORPUSDIR = '/home/bofh/projects/ai/data/
+TWITTER_CORPUSDIR = '/home/bofh/projects/ai/data/corpora/en/twitter'
+
+QASRC_DIRFN       = 'data/qa_src'
+
+# DEBUG_LIMIT       = 10
+DEBUG_LIMIT       = 0
+
+BLOCKLIST         = ['wapo.st', 'washingtonpost.com', 'twitter.com', 'tagesspiegel.de']
+
+NUM_PROCS         = 32
+
+USER_AGENTS = ['Moz
