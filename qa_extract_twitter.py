@@ -75,3 +75,15 @@ misc.init_app(PROC_TITLE)
 parser = OptionParser("usage: %prog [options] corpus")
 
 parser.add_option ("-v", "--verbose", action="store_true", dest="verbose",
+                   help="verbose output")
+
+(options, args) = parser.parse_args()
+
+if options.verbose:
+    logging.getLogger().setLevel(logging.DEBUG)
+else:
+    logging.getLogger().setLevel(logging.INFO)
+
+# readability.readability
+
+# log
