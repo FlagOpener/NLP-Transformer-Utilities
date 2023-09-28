@@ -61,4 +61,17 @@ USER_AGENTS = ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KH
                'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0',
                'Mozilla/5.0 (Windows NT 6.2; rv:63.0) Gecko/20100101 Firefox/63.0',
                'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:62.0) Gecko/20100101 Firefox/62.0'
-               'Opera/9.80 (Windows NT 6
+               'Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.18']
+#
+# init
+#
+
+misc.init_app(PROC_TITLE)
+
+#
+# commandline
+#
+
+parser = OptionParser("usage: %prog [options] corpus")
+
+parser.add_option ("-v", "--verbose", action="store_true", dest="verbose",
