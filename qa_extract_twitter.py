@@ -86,4 +86,17 @@ else:
 
 # readability.readability
 
-# log
+# logging.getLogger("readability").setLevel(logging.WARNING)
+logging.getLogger("urllib3").setLevel(logging.WARNING)
+
+if len(args) != 1:
+    parser.print_usage()
+    sys.exit(1)
+
+corpus_name = args[0]
+
+#
+# cleanup / preparation
+#
+ 
+cmd = 'mkdir -p %s/%s' % (Q
