@@ -113,4 +113,11 @@ for ls_a in os.listdir('%s/%s' % (TWITTER_CORPUSDIR, corpus_name)):
 
     ls_files.append('%s/%s/%s' % (TWITTER_CORPUSDIR, corpus_name, ls_a))
 
-    if len(ls_f
+    if len(ls_files) % 100 == 0:
+        logging.info ('%7d files...' % len(ls_files))
+
+    if DEBUG_LIMIT and (len(ls_files)>=DEBUG_LIMIT):
+        logging.warning('DEBUG_LIMIT reached at %d files.' % len(ls_files))
+        break
+
+logging.info('found %d files. sh
