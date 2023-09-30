@@ -99,4 +99,18 @@ corpus_name = args[0]
 # cleanup / preparation
 #
  
-cmd = 'mkdir -p %s/%s' % (Q
+cmd = 'mkdir -p %s/%s' % (QASRC_DIRFN, corpus_name)
+logging.info(cmd)
+os.system(cmd)
+
+#
+# find files
+#
+
+ls_files = []
+
+for ls_a in os.listdir('%s/%s' % (TWITTER_CORPUSDIR, corpus_name)):
+
+    ls_files.append('%s/%s/%s' % (TWITTER_CORPUSDIR, corpus_name, ls_a))
+
+    if len(ls_f
