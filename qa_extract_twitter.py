@@ -120,4 +120,15 @@ for ls_a in os.listdir('%s/%s' % (TWITTER_CORPUSDIR, corpus_name)):
         logging.warning('DEBUG_LIMIT reached at %d files.' % len(ls_files))
         break
 
-logging.info('found %d files. sh
+logging.info('found %d files. shuffling...' % len(ls_files))
+random.shuffle(ls_files)
+logging.info('found %d files. shuffling... done.' % len(ls_files))
+
+#
+# convert tweets
+#
+
+def convert_tweet(twitter_dumpfn):
+    try:
+        with open(twitter_dumpfn, 'r') as dumpf:
+            data = json.loads(dump
