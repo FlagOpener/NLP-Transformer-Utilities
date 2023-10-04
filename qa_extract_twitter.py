@@ -131,4 +131,12 @@ logging.info('found %d files. shuffling... done.' % len(ls_files))
 def convert_tweet(twitter_dumpfn):
     try:
         with open(twitter_dumpfn, 'r') as dumpf:
-            data = json.loads(dump
+            data = json.loads(dumpf.read())
+        if len(data['comments'])==0:
+            return
+
+        jsonfn = '%s/%s/%s.json' % (QASRC_DIRFN, corpus_name, data['id'])
+        if os.path.exists(jsonfn):
+            return
+
+        url = data[
