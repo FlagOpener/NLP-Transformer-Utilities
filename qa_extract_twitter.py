@@ -139,4 +139,15 @@ def convert_tweet(twitter_dumpfn):
         if os.path.exists(jsonfn):
             return
 
-        url = data[
+        url = data['textUrl'] if 'textUrl' in data else ''
+
+        text = ''
+
+        if url:
+
+            skip = False
+            for blocked_url in BLOCKLIST:
+                if blocked_url in url:
+                    skip = True
+            if skip:
+  
