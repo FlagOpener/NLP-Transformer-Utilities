@@ -150,4 +150,11 @@ def convert_tweet(twitter_dumpfn):
                 if blocked_url in url:
                     skip = True
             if skip:
-  
+               return 
+
+            logging.debug ('%-20s: %s ... ' % (data['user'], url))
+
+            config = newspaper.Config()
+            config.browser_user_agent = random.choice(USER_AGENTS)
+
+            article = Article(url=url,
