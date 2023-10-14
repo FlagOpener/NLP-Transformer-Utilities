@@ -168,4 +168,13 @@ def convert_tweet(twitter_dumpfn):
         # text
 
         if text:
-            ds = {'info': text, 'date': data['date'], 'dlg': [
+            ds = {'info': text, 'date': data['date'], 'dlg': [data['text']]}
+        else:
+            ds = {'info': data['text'], 'date': data['date'], 'dlg': []}
+
+        fav = 0
+        for c in data['comments']:
+            if c['favorites'] == 0:
+                continue
+            ds['dlg'].append(c['text'])
+     
