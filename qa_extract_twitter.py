@@ -157,4 +157,15 @@ def convert_tweet(twitter_dumpfn):
             config = newspaper.Config()
             config.browser_user_agent = random.choice(USER_AGENTS)
 
-            article = Article(url=url,
+            article = Article(url=url, config=config)
+            article.download()
+            article.parse()
+
+            text = article.text
+
+            # print (text)
+
+        # text
+
+        if text:
+            ds = {'info': text, 'date': data['date'], 'dlg': [
