@@ -194,4 +194,12 @@ def convert_tweet(twitter_dumpfn):
         logging.info ('%-20s: %s' % (data['user'], str(ae)))
 
     except:
-        logging.excep
+        logging.exception('exception caught %s' % repr(data))
+
+
+
+with Pool(NUM_PROCS) as p:
+
+    for _ in tqdm.tqdm(p.imap_unordered(convert_tweet, ls_files), total=len(ls_files)):
+        pass
+
