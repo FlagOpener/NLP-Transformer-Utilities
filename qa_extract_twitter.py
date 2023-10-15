@@ -187,4 +187,11 @@ def convert_tweet(twitter_dumpfn):
         with open(jsonfn, 'w') as jsonf:
             jsonf.write(json.dumps(ds))
 
-        logging.debug ('%-20s: %
+        logging.debug ('%-20s: %s written. %s' % (data['user'], jsonfn, url[:30]))
+
+    except newspaper.article.ArticleException as ae:
+        
+        logging.info ('%-20s: %s' % (data['user'], str(ae)))
+
+    except:
+        logging.excep
