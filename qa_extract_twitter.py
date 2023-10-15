@@ -177,4 +177,14 @@ def convert_tweet(twitter_dumpfn):
             if c['favorites'] == 0:
                 continue
             ds['dlg'].append(c['text'])
-     
+            fav += 1
+
+        if (not text) and (fav == 0):
+            return
+
+        # print(repr(ds))
+
+        with open(jsonfn, 'w') as jsonf:
+            jsonf.write(json.dumps(ds))
+
+        logging.debug ('%-20s: %
