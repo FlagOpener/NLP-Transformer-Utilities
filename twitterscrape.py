@@ -266,3 +266,227 @@ def scrapeTweet(tweetq, session, isComment=False):
     """
     "" Read the document, and parse it with PyQuery
     """
+    # Number of Comments needs to be pass back
+    # Number of Tweets is 1, don't need to be pass back
+    # Will return number of comments, and the tweet itself
+    cnt_c = 0
+    twe = {}
+    twe["user"] = tweetq.attr("data-screen-name")
+
+    # Process attributes of a tweet div
+    twe["replies"]   = int(tweetq("span.ProfileTweet-action--reply span.ProfileTweet-actionCount").attr("data-tweet-stat-count").replace(",", ""))
+    twe["retweets"]  = int(tweetq("span.ProfileTweet-action--retweet span.ProfileTweet-actionCount").attr("data-tweet-stat-count").replace(",", ""))
+    twe["favorites"] = int(tweetq("span.ProfileTweet-action--favorite span.ProfileTweet-actionCount").attr("data-tweet-stat-count").replace(",", ""))
+    twe['timestamp'] = int(tweetq("small.time span.js-short-timestamp").attr("data-time"))
+    twe["date"]      = datetime.fromtimestamp(twe['timestamp']).strftime("%Y-%m-%d %H:%M")
+    twe["id"]        = tweetq.attr("data-tweet-id")
+    twe["permalink"] = "https://twitter.com" + tweetq.attr("data-permalink-path")
+
+    # Process text area of a tweet div
+    textdiv = tweetq("p.js-tweet-text")
+
+    # Process links in a tweet div, including url, hashtags, and mentions contained in the tweet
+    links = textdiv('a')
+    if len(links) > 0:
+        hashtags = []
+        mentions = []
+        for link in links:
+            textUrl = PyQuery(link).attr('data-expanded-url')
+            textHashtag = PyQuery(link)('a.twitter-hashtag')('b')
+            if len(textHashtag) > 0:
+                hashtags.append('#' + textHashtag.text())
+            textMention = PyQuery(link)('a.twitter-atreply')('b')
+            if len(textMention) > 0:
+                mentions.append('@' + PyQuery(textMention).text())
+        twe['textUrl'] = ''
+        if textUrl is not None:
+            twe['textUrl'] = textUrl
+        twe['hashtags'] = hashtags
+        twe['mentions'] = mentions
+
+    # Process Emojis in a tweet Div
+    emojis = textdiv('img.Emoji--forText')
+    emojilist = []
+    if len(emojis) > 0:
+        for emo in emojis:
+            textEmoji = PyQuery(emo)
+            if textEmoji is not None:
+                emoji = {}
+                emoji['face'] = textEmoji.attr('alt')
+                emoji['url'] = textEmoji.attr('src')
+                emoji['title'] = textEmoji.attr('title')
+                emojilist.append(emoji)
+    twe['emojis'] = emojilist
+
+    # Process Text in a tweet Div
+    textq = textdiv.remove('a').remove('img')
+    if textq is not None:
+        twe["text"] = textq.text()
+    else:
+        twe['text'] = ''
+
+    # Process optional Geo area of a tweet
+    twe["geo"] = ''
+    geoArea = tweetq('span.Tweet-geo')
+    if len(geoArea) > 0:
+        twe["geo"] = geoArea.attr('title')
+
+    # Process comments area if any
+    if not isComment and twe['replies'] > 0:
+        cn, twe['comments'] = scrapeComments(twe['user'], twe['id'], twe['replies'], session)
+        cnt_c = len(twe['comments'])
+    else:
+        twe['comments'] = []
+
+    if not isComment:
+        logging.debug ("%-20s: TWEET: %4d likes, %4d comments: %s %s" % (twe["user"], twe["favorites"], len(twe['comments']), twe['date'], twe['text']))
+        # logging.debug ("       url: %s" % twe["permalink"])
+    else:
+        if twe["favorites"]>0:
+            # logging.debug ("       %-18s (%4d likes, %4d comments): %s" % (twe["user"], twe["favorites"], len(twe['comments']), twe['text']))
+
+            if not twe["user"] in user_stats:
+                user_stats[twe["user"]] = 0
+            user_stats[twe["user"]] += twe["favorites"]
+
+    # Finally return a json of a tweet
+    return cnt_c, twe
+
+def scrapePage(page, session, isComment=False):
+    cursor = ''
+    items = []
+    # cnt_cp: Number of comments implies by this page
+    # if this page is comment page, no 2-order comments will be retured
+    # that means cnt_cp = 0
+    cnt_cp = 0
+    has_more = False
+    if 'items_html' in page:
+        if len(page['items_html'].strip()) == 0:
+            return cnt_cp, has_more, cursor, items
+    if 'has_more_items' in page:
+        has_more = page['has_more_items']
+    if has_more is False and not isComment:
+        time.sleep(4)
+    if 'min_position' in page:
+        cursor = page['min_position']
+    tweets = []
+    if 'items_html' in page:
+        tweets = PyQuery(page['items_html'])('div.js-stream-tweet')
+    if len(tweets) == 0:
+        return cnt_cp, has_more, cursor, items
+    for tweetArea in tweets:
+        tweet_pq = PyQuery(tweetArea)
+        try:
+            cnt_c, twe = scrapeTweet(tweet_pq, session, isComment)
+            items.append(twe)
+            cnt_cp += cnt_c
+        except Exception as e:
+            logging.error('UNEXPECTED EXCEPTION: %s', e)
+
+    return cnt_cp, has_more, cursor, items
+
+def scrape_tweets_from_user(search_user):
+    total_tweets     = 0
+    total_items      = 0
+
+    cursor           = ''
+    sess             = requests.Session()
+    cnt_blank        = 0
+    pre_cursors      = collections.deque(3 * [""], 3)
+    empty_cursor_cnt = 0
+
+    dupes            = 0
+
+    while (options.max_tweets == 0) or (total_tweets < options.max_tweets):
+
+        page = scrapeStatusPage(cursor, sess, 
+                                options.lang,
+                                search_user,
+                                options.query,
+                                options.since,
+                                options.until,
+                                options.near,
+                                options.within)
+
+
+        # print page
+        cnt_c, has_more, cursor, page_tweets = scrapePage(page, isComment=False, session=sess)
+
+        if len(page_tweets) == 0:
+            cnt_blank += 1
+        if len(page_tweets) > 0:
+            cnt_blank = 0
+        if cnt_blank > 3:
+            logging.error('%-20s: Too many blank pages, terminating this search.', search_user)
+            break
+        total_tweets += len(page_tweets)
+        total_items  += cnt_c + len(page_tweets)
+
+        for tweet in page_tweets:
+            plink    = tweet['permalink']
+            parts    = plink.split('/')
+            
+            tweet_id = '%0x' % (int(parts[len(parts)-1]))
+
+            jsonfn = '%s/%s/%s.json' % (TWITTER_CORPUSDIR, corpus_name, tweet_id)
+
+            # logging.debug('writing: %s', jsonfn)
+
+            if os.path.exists(jsonfn):
+                dupes += 1
+            else:
+                dupes = 0
+
+            with open(jsonfn, 'w') as jsonf:
+                jsonf.write(json.dumps(tweet))
+
+        logging.info('%-20s: %6d tweets from this iteration, total tweets: %6d dupes: %d', search_user, len(page_tweets),         total_tweets, dupes)
+        logging.info('%-20s: %6d items  from this iteration, total items:  %6d          ', search_user, cnt_c + len(page_tweets), total_items )
+
+        # #
+        # # print top user stats
+        # #
+
+        # cnt = 0
+        # for user, likes in sorted(user_stats.items(), key=lambda x: x[1], reverse=True):
+        #     logging.info('%7d likes for %s' % (likes, user))
+        #     cnt += 1
+        #     if cnt >= 10:
+        #         break
+
+        with open(user_stat_fn, 'w') as user_stat_f:
+            user_stat_f.write(json.dumps(user_stats))
+
+        if len(cursor.strip()) > 0:
+            if cursor in pre_cursors:
+                logging.info("%-20s: No more tweets coming back, terminating the search.", search_user)
+                break
+            else:
+                pre_cursors.append(cursor)
+                empty_cursor_cnt = 0
+        else:
+            empty_cursor_cnt += 1
+
+        if empty_cursor_cnt > 4:
+            logging.error("%-20s: Too many empty cursors coming back, terminating the search.", search_user)
+            break
+
+        if dupes > MAX_DUPES:
+            logging.info("%-20s: too many dupes, terminating the search.", search_user)
+            break
+
+
+#
+# main
+#
+
+
+with open(twitter_sources, 'r') as tsf:
+
+    search_users = []
+
+    for line in tsf:
+        search_users.append(line.strip())
+
+    with Pool(NUM_PROCS) as p:
+        p.map(scrape_tweets_from_user, search_users)
