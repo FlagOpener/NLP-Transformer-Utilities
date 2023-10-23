@@ -28,4 +28,14 @@ import imp
 
 from optparse import OptionParser
 
-from nlt
+from nltools  import misc
+
+skill_name = 'personal'
+
+sys.path.insert(0, 'zamiaai/skills')
+
+fp, pathname, description = imp.find_module(skill_name)
+
+m = imp.load_module(skill_name, fp, pathname, description)
+
+class fake_
