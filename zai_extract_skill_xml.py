@@ -38,4 +38,14 @@ fp, pathname, description = imp.find_module(skill_name)
 
 m = imp.load_module(skill_name, fp, pathname, description)
 
-class fake_
+class fake_dte:
+    def __init__(self):
+        pass
+    def set_prefixes(self, prefixes):
+        self.prefixes = prefixes
+
+    def dt(self, lang, q, a):
+
+        outf.write('<dlg lang=\''+lang+'\'>\n')
+        outf.write('  <utt>\n')
+        if 
