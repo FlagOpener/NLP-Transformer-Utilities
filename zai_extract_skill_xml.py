@@ -52,4 +52,12 @@ class fake_dte:
             outf.write('    <s> %s </s>\n' % q.replace('(','%(%').replace('|','%|%').replace(')','%)%'))
         else:
             for s in q:
-                outf.write('    <s> %s </s>\n' % s.replace('(','%(%').replace
+                outf.write('    <s> %s </s>\n' % s.replace('(','%(%').replace('|','%|%').replace(')','%)%'))
+        outf.write('  </utt>\n')
+        outf.write('  <utt>\n')
+        outf.write('    <s> %s </s>\n' % a)
+        outf.write('  </utt>\n')
+        outf.write('</dlg>\n')
+        pass
+
+   
