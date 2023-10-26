@@ -48,4 +48,8 @@ class fake_dte:
 
         outf.write('<dlg lang=\''+lang+'\'>\n')
         outf.write('  <utt>\n')
-        if 
+        if isinstance(q, str):
+            outf.write('    <s> %s </s>\n' % q.replace('(','%(%').replace('|','%|%').replace(')','%)%'))
+        else:
+            for s in q:
+                outf.write('    <s> %s </s>\n' % s.replace('(','%(%').replace
